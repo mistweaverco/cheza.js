@@ -1,6 +1,8 @@
-# mwvideoplayer.js
+# cheza.js
 
-Customizable, extensible and small HTML5 Videoplayer.
+Customizable 📦, extensible ⚡ and small HTML5 Videoplayer 📼.
+
+Cheza is [swahili](https://en.wikipedia.org/wiki/Swahili_language) and means **play**.
 
 ## Core features
 

@@ -1,0 +1,16 @@
+{
+  "name": "@mistweaverco/cheza.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "vite": "3.2.5"
+  },
+  "devDependencies": {
+    "@mistweaverco/cheza-default-ui-styles": "*"
+  }
+}

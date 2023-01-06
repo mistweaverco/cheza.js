@@ -1,0 +1,12 @@
+{
+  "name": "@mistweaverco/cheza-default-ui-styles",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sass --watch src/styles.scss:dist/styles.css",
+    "build": "sass --no-source-map --style=compressed --load-path=node_modules src/styles.scss dist/styles.css"
+  },
+  "dependencies": {
+    "sass": "1.56.2",
+    "vite": "3.2.5"
+  }
+}
