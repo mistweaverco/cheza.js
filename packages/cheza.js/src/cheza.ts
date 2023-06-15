@@ -1,5 +1,6 @@
 import type { ChezaDataStore, ChezaOpts } from '../types'
 import { canPlayType } from './canPlayType'
+import { ChezaCanPlayTypes } from '../enums'
 
 class Cheza {
   private readonly _dataStore: ChezaDataStore
@@ -11,6 +12,7 @@ class Cheza {
   }
 
   public static canPlayType = canPlayType
+  public static CanPlayTypes = ChezaCanPlayTypes
 };
 
 export { Cheza }
