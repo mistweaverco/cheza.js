@@ -1,4 +1,3 @@
-import { Cheza } from './cheza';
+import { Cheza } from './cheza'
 
-export { Cheza };
-
+export { Cheza }

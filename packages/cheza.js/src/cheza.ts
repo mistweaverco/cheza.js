@@ -1,16 +1,16 @@
-import type { ChezaDataStore, ChezaOpts } from "../types";
-import { canPlayType } from "./canPlayType";
+import type { ChezaDataStore, ChezaOpts } from '../types'
+import { canPlayType } from './canPlayType'
 
 class Cheza {
-  private _dataStore: ChezaDataStore;
-  constructor(videoElement: HTMLVideoElement, opts: ChezaOpts) {
+  private readonly _dataStore: ChezaDataStore
+  constructor (videoElement: HTMLVideoElement, opts: ChezaOpts) {
     this._dataStore = {
-      videoElement,
+      videoElement
     }
-    console.log("Cheza constructor");
+    console.log('Cheza constructor')
   }
-  public static canPlayType = canPlayType;
+
+  public static canPlayType = canPlayType
 };
 
-export { Cheza };
-
+export { Cheza }

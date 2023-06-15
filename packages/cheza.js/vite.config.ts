@@ -5,7 +5,7 @@ export default defineConfig({
     lib: {
       entry: './src/app.ts',
       name: 'MWVideoplayer',
-      fileName: 'mwvideoplayer',
+      fileName: 'mwvideoplayer'
     }
   }
 })

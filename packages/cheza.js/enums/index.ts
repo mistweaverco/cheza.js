@@ -1,5 +1,4 @@
-import { ChezaCanPlayTypes } from './ChezaCanPlayTypes';
-import { ChezaCanPlayVideoTypes } from './ChezaCanPlayVideoTypes';
+import { ChezaCanPlayTypes } from './ChezaCanPlayTypes'
+import { ChezaCanPlayVideoTypes } from './ChezaCanPlayVideoTypes'
 
-export { ChezaCanPlayTypes, ChezaCanPlayVideoTypes };
-
+export { ChezaCanPlayTypes, ChezaCanPlayVideoTypes }
