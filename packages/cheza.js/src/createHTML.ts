@@ -25,10 +25,12 @@ const updateProgress = (event: MouseEvent, dataStore: ChezaDataStore): void => {
 
 export const createHTML = (dataStore: ChezaDataStore): HTMLDivElement => {
   createRootSVG()
+  const parentElement = dataStore.videoElement.parentElement as HTMLDivElement
   const root = dataStore.rootElement
   root.classList.add('cheza')
   dataStore.videoContainer.classList.add('video-container')
-  dataStore.videoElement.parentElement?.insertBefore(root, dataStore.videoElement)
+  // dataStore.videoElement.parentElement?.insertBefore(root, dataStore.videoElement)
+  parentElement.insertBefore(root, dataStore.videoElement)
   dataStore.videoContainer.appendChild(dataStore.videoElement)
   root.appendChild(dataStore.videoContainer)
   const loadingSpinnerAnimation = document.createElement('div')
@@ -52,10 +54,10 @@ export const createHTML = (dataStore: ChezaDataStore): HTMLDivElement => {
   })
   progressInline.appendChild(dataStore.progress)
 
-  root.querySelector('.progress-container')?.appendChild(progressInline)
+  progressContainer.appendChild(progressInline)
   getBottomButtonOpts(dataStore).forEach((buttonOpts: any) => {
     const button = createButton(buttonOpts)
-    root.querySelector('.controls-bottom')?.appendChild(button)
+    dataStore.controlsBottom.appendChild(button)
   })
   addVideoElementListeners(dataStore)
   return root

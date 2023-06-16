@@ -1,13 +1,9 @@
 import { prefillDataStore } from './prefillDataStore'
 import { addVideoElementListeners } from './addVideoElementListeners'
 import { createHTML } from './createHTML'
+import { videoElementMock } from './videoElementMock'
 
-const video = document.createElement('video')
-video.removeAttribute('controls')
-Object.defineProperty(video, 'duration', {
-  writable: true,
-  value: 100
-})
+const video = videoElementMock
 const dataStore = prefillDataStore(video)
 createHTML(dataStore)
 addVideoElementListeners(dataStore)
@@ -65,10 +61,7 @@ describe('addVideoElementListeners', () => {
   it('clicking on the videoElement should trigger play() when paused', () => {
     const spy = jest.spyOn(video, 'play')
     video.dispatchEvent(new Event('click'))
-    //  📌 It always calls play twice?!
-    // Probably because of the way I'm mocking the video element, but I'm not sure
-    // it could also be that Jest is weird and thinks that the video element has native controls
-    expect(spy).toHaveBeenCalledTimes(2)
+    expect(spy).toHaveBeenCalledTimes(1)
   })
   it('clicking on the videoElement should trigger pause() when not already paused', () => {
     Object.defineProperty(video, 'paused', {
@@ -76,10 +69,7 @@ describe('addVideoElementListeners', () => {
       value: false
     })
     const spy = jest.spyOn(video, 'pause')
-    //  📌 It always calls play twice?!
-    // Probably because of the way I'm mocking the video element, but I'm not sure
-    // it could also be that Jest is weird and thinks that the video element has native controls
     video.dispatchEvent(new Event('click'))
-    expect(spy).toHaveBeenCalledTimes(2)
+    expect(spy).toHaveBeenCalledTimes(1)
   })
 })

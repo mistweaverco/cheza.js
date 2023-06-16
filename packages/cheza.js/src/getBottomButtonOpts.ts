@@ -8,7 +8,7 @@ export const getBottomButtonOpts = (dataStore: ChezaDataStore): ChezaButtonOpts[
       name: 'play',
       ariaLabel: 'Play',
       title: 'Play',
-      svg: createSVG('play', {}),
+      svg: createSVG('play'),
       on: [
         {
           name: 'click',
@@ -22,7 +22,7 @@ export const getBottomButtonOpts = (dataStore: ChezaDataStore): ChezaButtonOpts[
       name: 'pause',
       ariaLabel: 'Pause',
       title: 'Pause',
-      svg: createSVG('pause', {}),
+      svg: createSVG('pause'),
       hidden: true,
       on: [
         {
@@ -37,7 +37,7 @@ export const getBottomButtonOpts = (dataStore: ChezaDataStore): ChezaButtonOpts[
       name: 'volume',
       ariaLabel: 'Mute',
       title: 'Mute',
-      svg: createSVG('volume', {}),
+      svg: createSVG('volume'),
       on: [
         {
           name: 'click',
@@ -51,7 +51,7 @@ export const getBottomButtonOpts = (dataStore: ChezaDataStore): ChezaButtonOpts[
       name: 'muted',
       ariaLabel: 'Unmute',
       title: 'Unmute',
-      svg: createSVG('muted', {}),
+      svg: createSVG('muted'),
       hidden: true,
       on: [
         {
@@ -66,7 +66,7 @@ export const getBottomButtonOpts = (dataStore: ChezaDataStore): ChezaButtonOpts[
       name: 'enter-fullscreen',
       ariaLabel: 'Enter Fullscreen',
       title: 'Enter Fullscreen',
-      svg: createSVG('enter-fullscreen', {}),
+      svg: createSVG('enter-fullscreen'),
       on: [
         {
           name: 'click',
@@ -80,13 +80,15 @@ export const getBottomButtonOpts = (dataStore: ChezaDataStore): ChezaButtonOpts[
       name: 'exit-fullscreen',
       ariaLabel: 'Exit Fullscreen',
       title: 'Exit Fullscreen',
-      svg: createSVG('exit-fullscreen', {}),
+      svg: createSVG('exit-fullscreen'),
       hidden: true,
       on: [
         {
           name: 'click',
           callback: () => {
-            // TODO make this work
+            if (document.fullscreenElement === dataStore.rootElement) {
+              void document.exitFullscreen()
+            }
           }
         }
       ]
