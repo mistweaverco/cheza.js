@@ -19,12 +19,29 @@ export const createHTML = (dataStore: ChezaDataStore): HTMLDivElement => {
   root.classList.add('cheza')
   dataStore.videoElement.parentElement?.insertBefore(root, dataStore.videoElement)
   root.appendChild(dataStore.videoElement)
-  const controls = ['cheza__controls--top', 'cheza__controls--bottom']
-  controls.forEach((cls) => {
+  const elementCls = ['cheza__controls--top', 'cheza__progress--container', 'cheza__controls--bottom']
+  elementCls.forEach((cls) => {
     const ctl = document.createElement('div')
     ctl.classList.add(cls)
     root.appendChild(ctl)
   })
+
+  const progressContainer = root.querySelector('.cheza__progress--container') as HTMLDivElement
+  const progressInline = document.createElement('div')
+  progressInline.classList.add('progress_inline')
+  const progress = document.createElement('div')
+  progress.classList.add('progress')
+  progressContainer.addEventListener('click', (event) => {
+    const { videoElement } = dataStore
+    const { offsetX } = event
+    const { offsetWidth } = progressContainer
+    const percentage = offsetX / offsetWidth
+    console.log(percentage)
+    videoElement.currentTime = videoElement.duration * percentage
+  })
+  progressInline.appendChild(progress)
+
+  root.querySelector('.cheza__progress--container')?.appendChild(progressInline)
   getBottomButtonOpts(dataStore).forEach((buttonOpts: any) => {
     const button = createButton(buttonOpts)
     root.querySelector('.cheza__controls--bottom')?.appendChild(button)

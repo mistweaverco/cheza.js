@@ -8,17 +8,56 @@
     top: 0;
   }
 
+  .cheza__progress--container {
+    position: absolute;
+    bottom: 48px;
+    height: 24px;
+    width: calc(100% - 48px);
+    left: 24px;
+    cursor: pointer;
+    opacity: 0.2;
+
+    &:hover {
+      opacity: 0.75;
+    }
+
+    .progress_inline {
+      position: absolute;
+      border-radius: 4px;
+      bottom: calc(50% - 2px);
+      height: 4px;
+      width: 100%;
+      background-color: $primaryColor2;
+      .progress {
+        position: absolute;
+        border-radius: 4px;
+        bottom: calc(50% - 2px);
+        height: 4px;
+        width: 0;
+        background-color: $primaryColor1;
+        overflow: hidden;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+  }
+
+  .cheza__button--hide {
+    display: none;
+  }
+
   .cheza__controls--bottom {
     position: absolute;
     bottom: 0;
   }
+
   .cheza__button--hide {
     display: none;
   }
+
   .cheza-button {
     border: 0 none;
-    margin: 8px 0;
-    padding: 4px 8px;
+    margin: 4px;
+    padding: 4px;
     background-color: transparent;
     cursor: pointer;
     &:hover {
@@ -31,7 +70,7 @@
     }
     svg {
       border-radius: 4px;
-      padding: 8px;
+      padding: 4px;
       fill: #fff;
       height: 24px;
       width: 24px;
