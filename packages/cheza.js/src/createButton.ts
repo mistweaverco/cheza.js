@@ -29,7 +29,7 @@ export const createButton = (opts: ChezaButtonOpts): HTMLButtonElement => {
     })
   }
   if (opts.hidden !== undefined && opts.hidden) {
-    buttonElement.classList.add('button-hide')
+    buttonElement.classList.add('hidden')
   }
   return buttonElement
 }
