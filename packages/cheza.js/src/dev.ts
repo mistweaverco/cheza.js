@@ -6,7 +6,7 @@ const video = document.querySelector('video') ?? document.createElement('video')
 const hlsUrl = video?.getAttribute('data-hls-url') ?? ''
 const dashUrl = video?.getAttribute('data-dash-url') ?? ''
 
-void new Cheza(video, {})
+void new Cheza(video)
 
 if (!Cheza.canPlayType(Cheza.CanPlayTypes.DASH)) {
   console.info('📼', 'No native DASH support, loading dash.js')
