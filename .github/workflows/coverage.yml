@@ -1,0 +1,9 @@
+name: Test Coverage
+on: push
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Test Coverage
+      run: yarn install --immutable && yarn run test:coverage

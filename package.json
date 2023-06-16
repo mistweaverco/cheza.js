@@ -2,8 +2,10 @@
   "name": "cheza",
   "packageManager": "yarn@3.3.0",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build"
+    "dev:player": "yarn workspace @mistweaverco/cheza.js dev",
+    "build:player": "yarn workspace @mistweaverco/cheza.js build",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
     "@mistweaverco/jest-svg-transformer": "1.0.2",
