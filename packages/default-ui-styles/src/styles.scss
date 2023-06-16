@@ -1,7 +1,43 @@
+@import 'variables';
+
 body {
   background-color: green;
 }
 
+.cheza {
+  position: relative;
+
+  .cheza__controls--top {
+    position: absolute;
+    top: 0;
+  }
+
+  .cheza__controls--bottom {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .cheza-button {
+    border: 0 none;
+    margin: 4px 0;
+    padding: 4px 8px;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover {
+      svg {
+        fill: $primaryColor1;
+      }
+    }
+    &.hidden {
+      display: none;
+    }
+    svg {
+      fill: #fff;
+      height: 24px;
+      width: 24px;
+    }
+  }
+}
 video {
   width: 320px;
   height: 340px;

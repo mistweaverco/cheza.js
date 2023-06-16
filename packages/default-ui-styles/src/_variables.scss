@@ -1,0 +1,16 @@
+$primaryColor1: #e20074 !default;
+$primaryColor2: #000 !default;
+$primaryColor3: #fff !default;
+
+$controlsHeight: 37px !default;
+$progressHeight: 5px !default;
+
+@function primaryColorAlpha($alphaValue) {
+	@return rgba($primaryColor1, $alphaValue);
+}
+
+@function primaryBgColorAlpha($alphaValue) {
+	@return rgba($primaryColor2, $alphaValue);
+}
+
+

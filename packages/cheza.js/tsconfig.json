@@ -3,7 +3,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "lib": ["ESNext", "DOM"],
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "strict": true,
     "isolatedModules": true,
     "esModuleInterop": true,
@@ -11,8 +11,10 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "resolveJsonModule": true
   },
-  "include": ["src"]
+  "include": ["src", "custom.d.ts"],
+  "exclude": ["node_modules"]
 }
 
