@@ -13,37 +13,44 @@ const createRootSVG = (): void => {
   }
 }
 
+const updateProgress = (event: MouseEvent, dataStore: ChezaDataStore): void => {
+  const { videoElement } = dataStore
+  const { offsetX } = event
+  const { offsetWidth } = dataStore.progressContainer
+  const percentage = offsetX / offsetWidth
+  // immediately update the progress bar
+  dataStore.progress.style.width = `${(percentage * 100)}%`
+  videoElement.currentTime = videoElement.duration * percentage
+}
+
 export const createHTML = (dataStore: ChezaDataStore): HTMLDivElement => {
   createRootSVG()
   const root = dataStore.rootElement
   root.classList.add('cheza')
-  const videoContainer = document.createElement('div')
-  videoContainer.classList.add('video-container')
+  dataStore.videoContainer.classList.add('video-container')
   dataStore.videoElement.parentElement?.insertBefore(root, dataStore.videoElement)
-  videoContainer.appendChild(dataStore.videoElement)
-  root.appendChild(videoContainer)
-  const elementCls = ['controls-top', 'progress-container', 'controls-bottom']
-  elementCls.forEach((cls) => {
-    const ctl = document.createElement('div')
-    ctl.classList.add(cls)
-    root.appendChild(ctl)
-  })
+  dataStore.videoContainer.appendChild(dataStore.videoElement)
+  root.appendChild(dataStore.videoContainer)
+  const loadingSpinnerAnimation = document.createElement('div')
+  loadingSpinnerAnimation.classList.add('animation')
+  dataStore.loadingSpinner.classList.add('loading-spinner')
+  dataStore.loadingSpinner.appendChild(loadingSpinnerAnimation)
+  root.appendChild(dataStore.loadingSpinner)
+  dataStore.controlsTop.classList.add('controls-top')
+  dataStore.controlsBottom.classList.add('controls-bottom')
+  dataStore.progressContainer.classList.add('progress-container')
+  root.appendChild(dataStore.controlsTop)
+  root.appendChild(dataStore.progressContainer)
+  root.appendChild(dataStore.controlsBottom)
 
   const progressContainer = root.querySelector('.progress-container') as HTMLDivElement
   const progressInline = document.createElement('div')
   progressInline.classList.add('progress-inline')
-  const progress = document.createElement('div')
-  progress.classList.add('progress')
+  dataStore.progress.classList.add('progress')
   progressContainer.addEventListener('click', (event) => {
-    const { videoElement } = dataStore
-    const { offsetX } = event
-    const { offsetWidth } = progressContainer
-    const percentage = offsetX / offsetWidth
-    // immediately update the progress bar
-    progress.style.width = `${(percentage * 100)}%`
-    videoElement.currentTime = videoElement.duration * percentage
+    updateProgress(event, dataStore)
   })
-  progressInline.appendChild(progress)
+  progressInline.appendChild(dataStore.progress)
 
   root.querySelector('.progress-container')?.appendChild(progressInline)
   getBottomButtonOpts(dataStore).forEach((buttonOpts: any) => {

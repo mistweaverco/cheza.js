@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'loading-spinner';
 
 .cheza {
   position: relative;
@@ -50,6 +51,7 @@
         background-color: $primaryColor1;
         overflow: hidden;
         transition: all 0.2s ease-in-out;
+        user-select: none;
       }
     }
   }

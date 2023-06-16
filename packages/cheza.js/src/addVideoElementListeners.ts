@@ -13,6 +13,18 @@ export const addVideoElementListeners = (dataStore: ChezaDataStore): void => {
     }
   })
 
+  videoElement.addEventListener('waiting', () => {
+    dataStore.loadingSpinner.classList.remove('hide')
+  })
+
+  videoElement.addEventListener('canplay', () => {
+    dataStore.loadingSpinner.classList.add('hide')
+  })
+
+  videoElement.addEventListener('playing', () => {
+    dataStore.loadingSpinner.classList.add('hide')
+  })
+
   videoElement.addEventListener('timeupdate', () => {
     progressBar.style.width = `${(videoElement.currentTime / videoElement.duration) * 100}%`
   })
