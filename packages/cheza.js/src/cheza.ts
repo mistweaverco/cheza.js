@@ -3,14 +3,14 @@ import type { ChezaDataStore, ChezaOpts } from '../types'
 import { canPlayType } from './canPlayType'
 import { ChezaCanPlayTypes } from '../enums'
 import { createHTML } from './createHTML'
+import { prefillDataStore } from './prefillDataStore'
 
 class Cheza {
   static Version = pkg.version
   private readonly _dataStore: ChezaDataStore
   constructor (videoElement: HTMLVideoElement, opts: ChezaOpts) {
-    this._dataStore = {
-      videoElement
-    }
+    this._dataStore = prefillDataStore(videoElement)
+    videoElement.removeAttribute('controls')
     createHTML(this._dataStore)
   }
 

@@ -1,9 +1,5 @@
 @import 'variables';
 
-body {
-  background-color: green;
-}
-
 .cheza {
   position: relative;
 
@@ -16,30 +12,34 @@ body {
     position: absolute;
     bottom: 0;
   }
-
+  .cheza__button--hide {
+    display: none;
+  }
   .cheza-button {
     border: 0 none;
-    margin: 4px 0;
+    margin: 8px 0;
     padding: 4px 8px;
     background-color: transparent;
     cursor: pointer;
     &:hover {
       svg {
-        fill: $primaryColor1;
+        background-color: $primaryColor1;
       }
     }
     &.hidden {
       display: none;
     }
     svg {
+      border-radius: 4px;
+      padding: 8px;
       fill: #fff;
       height: 24px;
       width: 24px;
     }
   }
+  video {
+    width: 1280px;
+    height: 720px;
+  }
 }
-video {
-  width: 320px;
-  height: 340px;
-  background-color: red;
-}
+

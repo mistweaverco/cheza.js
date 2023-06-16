@@ -1,7 +1,8 @@
 import type { ChezaDataStore } from '../types'
 import UIIcons from '../icons/sprite/icons.svg'
 import { createButton } from './createButton'
-import { createSVG } from './createSVG'
+import { getBottomButtonOpts } from './getBottomButtonOpts'
+import { addVideoElementListeners } from './addVideoElementListeners'
 
 const createRootSVG = (): void => {
   if (document.getElementById('chezajs-default-ui-icons') === null) {
@@ -14,7 +15,7 @@ const createRootSVG = (): void => {
 
 export const createHTML = (dataStore: ChezaDataStore): HTMLDivElement => {
   createRootSVG()
-  const root = document.createElement('div')
+  const root = dataStore.rootElement
   root.classList.add('cheza')
   dataStore.videoElement.parentElement?.insertBefore(root, dataStore.videoElement)
   root.appendChild(dataStore.videoElement)
@@ -24,25 +25,10 @@ export const createHTML = (dataStore: ChezaDataStore): HTMLDivElement => {
     ctl.classList.add(cls)
     root.appendChild(ctl)
   })
-  const buttons = [
-    {
-      ariaLabel: 'Play',
-      title: 'Play',
-      svg: createSVG('play', {}),
-      on: [
-        {
-          name: 'click',
-          callback: () => {
-            void dataStore.videoElement.play()
-          }
-        }
-      ]
-    }
-  ]
-  buttons.forEach((btn) => {
-    const button = createButton(btn)
+  getBottomButtonOpts(dataStore).forEach((buttonOpts: any) => {
+    const button = createButton(buttonOpts)
     root.querySelector('.cheza__controls--bottom')?.appendChild(button)
   })
-
+  addVideoElementListeners(dataStore)
   return root
 }
