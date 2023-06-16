@@ -39,7 +39,8 @@ export const createHTML = (dataStore: ChezaDataStore): HTMLDivElement => {
     const { offsetX } = event
     const { offsetWidth } = progressContainer
     const percentage = offsetX / offsetWidth
-    console.log(percentage)
+    // immediately update the progress bar
+    progress.style.width = `${(percentage * 100)}%`
     videoElement.currentTime = videoElement.duration * percentage
   })
   progressInline.appendChild(progress)
