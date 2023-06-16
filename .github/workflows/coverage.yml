@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    - name: Install Dependencies
+      run: yarn install --immutable
     - name: Test Coverage
-      run: yarn install --immutable && yarn run test:coverage
+      run: yarn run test:coverage
