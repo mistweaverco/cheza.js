@@ -17,18 +17,21 @@ export const createHTML = (dataStore: ChezaDataStore): HTMLDivElement => {
   createRootSVG()
   const root = dataStore.rootElement
   root.classList.add('cheza')
+  const videoContainer = document.createElement('div')
+  videoContainer.classList.add('video-container')
   dataStore.videoElement.parentElement?.insertBefore(root, dataStore.videoElement)
-  root.appendChild(dataStore.videoElement)
-  const elementCls = ['cheza__controls--top', 'cheza__progress--container', 'cheza__controls--bottom']
+  videoContainer.appendChild(dataStore.videoElement)
+  root.appendChild(videoContainer)
+  const elementCls = ['controls-top', 'progress-container', 'controls-bottom']
   elementCls.forEach((cls) => {
     const ctl = document.createElement('div')
     ctl.classList.add(cls)
     root.appendChild(ctl)
   })
 
-  const progressContainer = root.querySelector('.cheza__progress--container') as HTMLDivElement
+  const progressContainer = root.querySelector('.progress-container') as HTMLDivElement
   const progressInline = document.createElement('div')
-  progressInline.classList.add('progress_inline')
+  progressInline.classList.add('progress-inline')
   const progress = document.createElement('div')
   progress.classList.add('progress')
   progressContainer.addEventListener('click', (event) => {
@@ -41,10 +44,10 @@ export const createHTML = (dataStore: ChezaDataStore): HTMLDivElement => {
   })
   progressInline.appendChild(progress)
 
-  root.querySelector('.cheza__progress--container')?.appendChild(progressInline)
+  root.querySelector('.progress-container')?.appendChild(progressInline)
   getBottomButtonOpts(dataStore).forEach((buttonOpts: any) => {
     const button = createButton(buttonOpts)
-    root.querySelector('.cheza__controls--bottom')?.appendChild(button)
+    root.querySelector('.controls-bottom')?.appendChild(button)
   })
   addVideoElementListeners(dataStore)
   return root

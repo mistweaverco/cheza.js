@@ -2,8 +2,8 @@ import type { ChezaDataStore } from '../types'
 
 export const addVideoElementListeners = (dataStore: ChezaDataStore): void => {
   const { videoElement } = dataStore
-  const bottomControls = dataStore.rootElement.querySelector('.cheza__controls--bottom')
-  const progressBar = dataStore.rootElement.querySelector('.cheza__progress--container .progress') as HTMLDivElement
+  const bottomControls = dataStore.rootElement.querySelector('.controls-bottom')
+  const progressBar = dataStore.rootElement.querySelector('.progress-container .progress') as HTMLDivElement
 
   videoElement.addEventListener('click', () => {
     if (videoElement.paused) {
@@ -18,22 +18,22 @@ export const addVideoElementListeners = (dataStore: ChezaDataStore): void => {
   })
 
   videoElement.addEventListener('play', () => {
-    bottomControls?.querySelector('.cheza__button--play')?.classList.add('cheza__button--hide')
-    bottomControls?.querySelector('.cheza__button--pause')?.classList.remove('cheza__button--hide')
+    bottomControls?.querySelector('.button-play')?.classList.add('button-hide')
+    bottomControls?.querySelector('.button-pause')?.classList.remove('button-hide')
   })
 
   videoElement.addEventListener('pause', () => {
-    bottomControls?.querySelector('.cheza__button--play')?.classList.remove('cheza__button--hide')
-    bottomControls?.querySelector('.cheza__button--pause')?.classList.add('cheza__button--hide')
+    bottomControls?.querySelector('.button-play')?.classList.remove('button-hide')
+    bottomControls?.querySelector('.button-pause')?.classList.add('button-hide')
   })
 
   videoElement.addEventListener('volumechange', () => {
     if (videoElement.volume === 0) {
-      bottomControls?.querySelector('.cheza__button--volume')?.classList.add('cheza__button--hide')
-      bottomControls?.querySelector('.cheza__button--muted')?.classList.remove('cheza__button--hide')
+      bottomControls?.querySelector('.button-volume')?.classList.add('button-hide')
+      bottomControls?.querySelector('.button-muted')?.classList.remove('button-hide')
     } else {
-      bottomControls?.querySelector('.cheza__button--volume')?.classList.remove('cheza__button--hide')
-      bottomControls?.querySelector('.cheza__button--muted')?.classList.add('cheza__button--hide')
+      bottomControls?.querySelector('.button-volume')?.classList.remove('button-hide')
+      bottomControls?.querySelector('.button-muted')?.classList.add('button-hide')
     }
   })
 }

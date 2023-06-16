@@ -15,7 +15,7 @@ export interface ChezaButtonOpts {
 
 export const createButton = (opts: ChezaButtonOpts): HTMLButtonElement => {
   const buttonElement = document.createElement('button')
-  buttonElement.classList.add('cheza-button', 'cheza__button--' + opts.name)
+  buttonElement.classList.add('button', 'button-' + opts.name)
   buttonElement.setAttribute('aria-label', opts.ariaLabel)
   buttonElement.setAttribute('title', opts.title)
   buttonElement.setAttribute('type', 'button')
@@ -29,7 +29,7 @@ export const createButton = (opts: ChezaButtonOpts): HTMLButtonElement => {
     })
   }
   if (opts.hidden !== undefined && opts.hidden) {
-    buttonElement.classList.add('cheza__button--hide')
+    buttonElement.classList.add('button-hide')
   }
   return buttonElement
 }
