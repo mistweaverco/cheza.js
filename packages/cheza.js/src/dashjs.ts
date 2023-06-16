@@ -1,3 +1,3 @@
-import DashJS from 'dashjs'
+import dashjs from 'dashjs'
 
-export default DashJS
+export { dashjs }

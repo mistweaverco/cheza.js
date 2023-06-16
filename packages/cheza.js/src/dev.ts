@@ -8,35 +8,33 @@ const dashUrl = video?.getAttribute('data-dash-url') ?? ''
 
 void new Cheza(video)
 
-if (!Cheza.canPlayType(Cheza.CanPlayTypes.DASH)) {
-  console.info('📼', 'No native DASH support, loading dash.js')
-  void asyncImport('./dashjs').then((DashJSModule: any) => {
-    const DashJS = DashJSModule.default
-    if (DashJS.supportsMediaSource() === false) {
+void (async () => {
+  if (!Cheza.canPlayType(Cheza.CanPlayTypes.DASH)) {
+    console.info('📼', 'No native DASH support, loading dash.js')
+    const { dashjs } = await asyncImport('./dashjs')
+    if (dashjs.supportsMediaSource() === false) {
       console.info('📼', 'No dash.js support')
       if (!Cheza.canPlayType(Cheza.CanPlayTypes.HLS)) {
         console.info('📼', 'No native HLS support, loading hls.js')
-        void asyncImport('./hlsjs').then((HlsJsModule: any) => {
-          const HlsJs = HlsJsModule.default
-          if (HlsJs.isSupported() === false) {
-            console.error('📼', 'No hls.js support, fallback to mp4')
-          } else {
-            const hls = new HlsJs()
-            hls.loadSource(hlsUrl)
-            hls.attachMedia(video)
-          }
-        })
+        const { HlsJs } = await asyncImport('./hlsjs')
+        if (HlsJs.isSupported() === false) {
+          console.error('📼', 'No hls.js support, fallback to mp4')
+        } else {
+          const hls = new HlsJs()
+          hls.loadSource(hlsUrl)
+          hls.attachMedia(video)
+        }
       } else {
         // native hls support
         video.src = hlsUrl
       }
     } else {
-      DashJS.MediaPlayer().create().initialize(video, dashUrl, false)
+      dashjs.MediaPlayer().create().initialize(video, dashUrl, false)
     }
-  })
-} else {
-  // native dash support
-  video.src = dashUrl
-}
+  } else {
+    // native dash support
+    video.src = dashUrl
+  }
+})()
 
 export { Cheza }
