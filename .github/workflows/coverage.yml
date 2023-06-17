@@ -9,3 +9,7 @@ jobs:
       run: yarn install --immutable
     - name: Test Coverage
       run: yarn run test:coverage
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
