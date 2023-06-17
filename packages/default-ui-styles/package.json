@@ -1,5 +1,5 @@
 {
-  "name": "@mistweaverco/cheza-default-ui-styles",
+  "name": "@mistweaverco/cheza.js-default-ui-styles",
   "version": "0.0.1",
   "scripts": {
     "dev": "sass --watch src/styles.scss:dist/styles.css",

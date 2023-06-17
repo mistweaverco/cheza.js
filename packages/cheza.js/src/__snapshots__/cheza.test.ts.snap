@@ -101,7 +101,7 @@ exports[`Cheza should match the dataStore snapshot 1`] = `
     class="controls-top"
   />,
   "loadingSpinner": <div
-    class="loading-spinner"
+    class="loading-spinner hidden"
   >
     <div
       class="animation"
@@ -125,12 +125,140 @@ exports[`Cheza should match the dataStore snapshot 1`] = `
     class="cheza"
   >
     <div
+      class="default-ui"
+    >
+      <div
+        class="video-container"
+      >
+        <video />
+      </div>
+      <div
+        class="loading-spinner hidden"
+      >
+        <div
+          class="animation"
+        />
+      </div>
+      <div
+        class="controls-top"
+      />
+      <div
+        class="progress-container"
+      >
+        <div
+          class="progress-inline"
+        >
+          <div
+            class="progress"
+          />
+        </div>
+      </div>
+      <div
+        class="controls-bottom"
+      >
+        <button
+          aria-label="Play"
+          class="button button-play"
+          title="Play"
+          type="button"
+        >
+          <svg
+            focusable="false"
+            role="presentation"
+          >
+            <use
+              xlink:href="#cheza-play"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Pause"
+          class="button button-pause hidden"
+          title="Pause"
+          type="button"
+        >
+          <svg
+            focusable="false"
+            role="presentation"
+          >
+            <use
+              xlink:href="#cheza-pause"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Mute"
+          class="button button-volume"
+          title="Mute"
+          type="button"
+        >
+          <svg
+            focusable="false"
+            role="presentation"
+          >
+            <use
+              xlink:href="#cheza-volume"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Unmute"
+          class="button button-muted hidden"
+          title="Unmute"
+          type="button"
+        >
+          <svg
+            focusable="false"
+            role="presentation"
+          >
+            <use
+              xlink:href="#cheza-muted"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Enter Fullscreen"
+          class="button button-enter-fullscreen"
+          title="Enter Fullscreen"
+          type="button"
+        >
+          <svg
+            focusable="false"
+            role="presentation"
+          >
+            <use
+              xlink:href="#cheza-enter-fullscreen"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Exit Fullscreen"
+          class="button button-exit-fullscreen hidden"
+          title="Exit Fullscreen"
+          type="button"
+        >
+          <svg
+            focusable="false"
+            role="presentation"
+          >
+            <use
+              xlink:href="#cheza-exit-fullscreen"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "uiRoot": <div
+    class="default-ui"
+  >
+    <div
       class="video-container"
     >
       <video />
     </div>
     <div
-      class="loading-spinner"
+      class="loading-spinner hidden"
     >
       <div
         class="animation"

@@ -1,6 +1,6 @@
 import { Cheza } from './cheza'
 import { asyncImport } from './asyncImport'
-import '@mistweaverco/cheza-default-ui-styles/dist/styles.css'
+import '@mistweaverco/cheza.js-default-ui-styles/dist/styles.css'
 
 const video = document.querySelector('video') ?? document.createElement('video')
 const hlsUrl = video?.getAttribute('data-hls-url') ?? ''

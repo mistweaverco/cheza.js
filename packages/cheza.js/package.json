@@ -15,7 +15,7 @@
     "vite": "3.2.5"
   },
   "devDependencies": {
-    "@mistweaverco/cheza-default-ui-styles": "*",
+    "@mistweaverco/cheza.js-default-ui-styles": "*",
     "@mistweaverco/vite-svg-loader": "^1.0.0",
     "svg-sprite": "2.0.2"
   }

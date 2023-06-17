@@ -27,25 +27,26 @@ export const createHTML = (dataStore: ChezaDataStore): HTMLDivElement => {
   createRootSVG()
   const parentElement = dataStore.videoElement.parentElement as HTMLDivElement
   const root = dataStore.rootElement
+  const uiRoot = dataStore.uiRoot
   root.classList.add('cheza')
+  uiRoot.classList.add('default-ui')
   dataStore.videoContainer.classList.add('video-container')
-  // dataStore.videoElement.parentElement?.insertBefore(root, dataStore.videoElement)
   parentElement.insertBefore(root, dataStore.videoElement)
   dataStore.videoContainer.appendChild(dataStore.videoElement)
-  root.appendChild(dataStore.videoContainer)
+  uiRoot.appendChild(dataStore.videoContainer)
   const loadingSpinnerAnimation = document.createElement('div')
   loadingSpinnerAnimation.classList.add('animation')
-  dataStore.loadingSpinner.classList.add('loading-spinner')
+  dataStore.loadingSpinner.classList.add('loading-spinner', 'hidden')
   dataStore.loadingSpinner.appendChild(loadingSpinnerAnimation)
-  root.appendChild(dataStore.loadingSpinner)
+  uiRoot.appendChild(dataStore.loadingSpinner)
   dataStore.controlsTop.classList.add('controls-top')
   dataStore.controlsBottom.classList.add('controls-bottom')
   dataStore.progressContainer.classList.add('progress-container')
-  root.appendChild(dataStore.controlsTop)
-  root.appendChild(dataStore.progressContainer)
-  root.appendChild(dataStore.controlsBottom)
+  uiRoot.appendChild(dataStore.controlsTop)
+  uiRoot.appendChild(dataStore.progressContainer)
+  uiRoot.appendChild(dataStore.controlsBottom)
 
-  const progressContainer = root.querySelector('.progress-container') as HTMLDivElement
+  const progressContainer = dataStore.progressContainer
   const progressInline = document.createElement('div')
   progressInline.classList.add('progress-inline')
   dataStore.progress.classList.add('progress')
@@ -59,6 +60,8 @@ export const createHTML = (dataStore: ChezaDataStore): HTMLDivElement => {
     const button = createButton(buttonOpts)
     dataStore.controlsBottom.appendChild(button)
   })
+
+  root.appendChild(dataStore.uiRoot)
   addVideoElementListeners(dataStore)
   return root
 }

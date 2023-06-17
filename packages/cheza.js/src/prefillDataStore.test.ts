@@ -5,6 +5,7 @@ describe('prefillDataStore', () => {
   const video = document.createElement('video')
   const dataStore: ChezaDataStore = {
     videoElement: video,
+    uiRoot: document.createElement('div'),
     progress: document.createElement('div'),
     controlsTop: document.createElement('div'),
     rootElement: document.createElement('div'),

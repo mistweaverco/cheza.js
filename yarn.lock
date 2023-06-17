@@ -783,9 +783,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mistweaverco/cheza-default-ui-styles@*, @mistweaverco/cheza-default-ui-styles@workspace:packages/default-ui-styles":
+"@mistweaverco/cheza.js-default-ui-styles@*, @mistweaverco/cheza.js-default-ui-styles@workspace:packages/default-ui-styles":
   version: 0.0.0-use.local
-  resolution: "@mistweaverco/cheza-default-ui-styles@workspace:packages/default-ui-styles"
+  resolution: "@mistweaverco/cheza.js-default-ui-styles@workspace:packages/default-ui-styles"
   dependencies:
     sass: 1.56.2
     vite: 3.2.5
@@ -804,7 +804,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@mistweaverco/cheza.js@workspace:packages/cheza.js"
   dependencies:
-    "@mistweaverco/cheza-default-ui-styles": "*"
+    "@mistweaverco/cheza.js-default-ui-styles": "*"
     "@mistweaverco/vite-svg-loader": ^1.0.0
     svg-sprite: 2.0.2
     vite: 3.2.5
