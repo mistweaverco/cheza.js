@@ -1,4 +1,4 @@
-import { type ChezaCanPlayTypes } from '../enums'
+import { type ChezaCanPlayTypes } from './ChezaCanPlayTypes'
 
 export const canPlayType = (type: ChezaCanPlayTypes): boolean => {
   const el = document.createElement('video')

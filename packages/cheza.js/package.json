@@ -1,8 +1,11 @@
 {
   "name": "@mistweaverco/cheza.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "types": "types/index.d.ts",
+  "main": "dist/cheza.mjs",
   "files": [
-    "dist/*"
+    "dist/*",
+    "types/*"
   ],
   "scripts": {
     "dev": "vite",

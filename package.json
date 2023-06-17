@@ -4,6 +4,8 @@
   "scripts": {
     "dev:player": "yarn workspace @mistweaverco/cheza.js dev",
     "build:player": "yarn workspace @mistweaverco/cheza.js build",
+    "dev:ima-plugin": "yarn workspace @mistweaverco/cheza.js-ima-plugin dev",
+    "build:ima-plugin": "yarn workspace @mistweaverco/cheza.js-ima-plugin build",
     "lint": "eslint .",
     "test": "jest",
     "test:coverage": "jest --coverage"

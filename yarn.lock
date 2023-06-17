@@ -792,6 +792,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@mistweaverco/cheza.js-ima-plugin@workspace:packages/ima-plugin":
+  version: 0.0.0-use.local
+  resolution: "@mistweaverco/cheza.js-ima-plugin@workspace:packages/ima-plugin"
+  dependencies:
+    vite: 3.2.5
+  languageName: unknown
+  linkType: soft
+
 "@mistweaverco/cheza.js@workspace:packages/cheza.js":
   version: 0.0.0-use.local
   resolution: "@mistweaverco/cheza.js@workspace:packages/cheza.js"

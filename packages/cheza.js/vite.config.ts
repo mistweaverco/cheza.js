@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: './src/app.ts',
-      name: 'ChezaJS',
+      name: 'Cheza',
       fileName: 'cheza'
     }
   },
