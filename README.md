@@ -1,6 +1,9 @@
 # cheza.js
 
 [![codecov](https://codecov.io/github/mistweaverco/cheza.js/branch/main/graph/badge.svg?token=FIU6JNUCK4)](https://codecov.io/github/mistweaverco/cheza.js)
+![build](https://github.com/mistweaverco/cheza.js/actions/workflows/build.yml/badge.svg)
+![lint](https://github.com/mistweaverco/cheza.js/actions/workflows/lint.yml/badge.svg)
+
 
 Customizable 📦, extensible ⚡ and small HTML5 Videoplayer 📼.
 
