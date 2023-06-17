@@ -1,5 +1,7 @@
 # cheza.js
 
+[![codecov](https://codecov.io/github/mistweaverco/cheza.js/branch/main/graph/badge.svg?token=FIU6JNUCK4)](https://codecov.io/github/mistweaverco/cheza.js)
+
 Customizable 📦, extensible ⚡ and small HTML5 Videoplayer 📼.
 
 Cheza is [swahili](https://en.wikipedia.org/wiki/Swahili_language) and means **play**.
