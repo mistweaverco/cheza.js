@@ -1,5 +1,17 @@
 type ChezaCanPlayTypes = 'MP4' | 'OGG' | 'WEBM' | 'DASH' | 'HLS'
 
+export interface ConstructedChezaPlugin {
+  add: (dataStore: ChezaDataStore, opts?: any) => void
+  remove: (dataStore: ChezaDataStore, opts?: any) => void
+}
+
+// eslint-disable-next-line @typescript-eslint/no-extraneous-class
+declare class ChezaPlugin {
+  public static Name: string
+  public static Version: string
+  constructor (): ConstructedChezaPlugin
+}
+
 export interface ChezaDataStore {
   rootElement: HTMLDivElement
   videoElement: HTMLVideoElement
@@ -9,6 +21,7 @@ export interface ChezaDataStore {
   controlsTop: HTMLDivElement
   controlsBottom: HTMLDivElement
   loadingSpinner: HTMLDivElement
+  activePlugins: Map<string, ConstructedChezaPlugin>
 }
 
 declare class Cheza {
