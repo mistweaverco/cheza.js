@@ -1,8 +1,48 @@
 .cheza {
-  .ima-ad-container {
+  .ima-ui {
     position: absolute;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
-    width: 100%;
+    &.hidden {
+      display: none;
+    }
+    .ad-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 200;
+    }
+    .controls-bottom {
+      width: 100%;
+      z-index: 300;
+      background: #000;
+      background: linear-gradient(#0000,#000000bf);
+
+      .time-label {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        position: absolute;
+        top: 18px;
+        margin-left: 12px;
+        padding: 0;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        display: inline-block;
+        user-select: none;
+      }
+
+      .button {
+        &:hover {
+          svg {
+            // This is the color that everybody seems to use for their ads
+            background-color: #ECC546;
+          }
+        }
+      }
+    }
   }
 }

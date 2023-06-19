@@ -3,19 +3,21 @@
 @import 'ads';
 
 .cheza {
+  display: block;
   position: relative;
+  width: 100%;
+  height: 100%;
 
-  .video-container {
-    position: relative;
+  video {
+    margin: auto;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    background-color: $primaryColor2;
-    video {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+    aspect-ratio: 16/9;
+    object-fit: contain;
+  }
+
+  .default-ui {
+    height: 100%;
   }
 
   .controls-top {
@@ -63,7 +65,16 @@
 
   .controls-bottom {
     position: absolute;
+    width: 100%;
     bottom: 0;
+    background: #000;
+    background: linear-gradient(#0000,#000000bf);
+
+    .button-enter-fullscreen,
+    .button-exit-fullscreen {
+      position: absolute;
+      right: 0;
+    }
   }
 
   .button {

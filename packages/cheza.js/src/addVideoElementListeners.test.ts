@@ -13,6 +13,44 @@ describe('addVideoElementListeners', () => {
     jest.restoreAllMocks()
   })
 
+  it('enter-fullscreen button should be visible by default', () => {
+    expect(dataStore.controlsBottom.querySelector('.button-enter-fullscreen')?.classList.contains('hidden')).toBe(false)
+  })
+  it('exit-fullscreen button should be hidden by default', () => {
+    expect(dataStore.controlsBottom.querySelector('.button-exit-fullscreen')?.classList.contains('hidden')).toBe(true)
+  })
+  it('enter-fullscreen button should be hidden when in fullscreen mode', () => {
+    Object.defineProperty(document, 'fullscreenElement', {
+      writable: true,
+      value: dataStore.rootElement
+    })
+    document.dispatchEvent(new Event('fullscreenchange'))
+    expect(dataStore.controlsBottom.querySelector('.button-enter-fullscreen')?.classList.contains('hidden')).toBe(true)
+  })
+  it('exit-fullscreen button should be visible when in fullscreen mode', () => {
+    Object.defineProperty(document, 'fullscreenElement', {
+      writable: true,
+      value: dataStore.rootElement
+    })
+    document.dispatchEvent(new Event('fullscreenchange'))
+    expect(dataStore.controlsBottom.querySelector('.button-exit-fullscreen')?.classList.contains('hidden')).toBe(false)
+  })
+  it('exit-fullscreen button should be hidden when leaving fullscreen mode', () => {
+    Object.defineProperty(document, 'fullscreenElement', {
+      writable: true,
+      value: null
+    })
+    document.dispatchEvent(new Event('fullscreenchange'))
+    expect(dataStore.controlsBottom.querySelector('.button-exit-fullscreen')?.classList.contains('hidden')).toBe(true)
+  })
+  it('enter-fullscreen button should be visible when leaving fullscreen mode', () => {
+    Object.defineProperty(document, 'fullscreenElement', {
+      writable: true,
+      value: null
+    })
+    document.dispatchEvent(new Event('fullscreenchange'))
+    expect(dataStore.controlsBottom.querySelector('.button-enter-fullscreen')?.classList.contains('hidden')).toBe(false)
+  })
   it('loadingSpinner should be visible on waiting', () => {
     video.dispatchEvent(new Event('waiting'))
     expect(dataStore.loadingSpinner.classList.contains('hidden')).toBe(false)
@@ -46,14 +84,14 @@ describe('addVideoElementListeners', () => {
     expect(dataStore.controlsBottom.querySelector('.button-play')?.classList.contains('hidden')).toBe(false)
     expect(dataStore.controlsBottom.querySelector('.button-pause')?.classList.contains('hidden')).toBe(true)
   })
-  it('volumechange to 0 should hide the volume button and show the muted button', () => {
-    video.volume = 0
+  it('volumechange with muted should hide the volume button and show the muted button', () => {
+    video.muted = true
     video.dispatchEvent(new Event('volumechange'))
     expect(dataStore.controlsBottom.querySelector('.button-volume')?.classList.contains('hidden')).toBe(true)
     expect(dataStore.controlsBottom.querySelector('.button-muted')?.classList.contains('hidden')).toBe(false)
   })
-  it('volumechange to 1 should hide the mute button and show the volume button', () => {
-    video.volume = 1
+  it('volumechange with muted false should hide the mute button and show the volume button', () => {
+    video.muted = false
     video.dispatchEvent(new Event('volumechange'))
     expect(dataStore.controlsBottom.querySelector('.button-volume')?.classList.contains('hidden')).toBe(false)
     expect(dataStore.controlsBottom.querySelector('.button-muted')?.classList.contains('hidden')).toBe(true)

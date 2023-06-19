@@ -7,7 +7,6 @@ export const prefillDataStore = (videoElement: HTMLVideoElement): ChezaDataStore
   const progress = document.createElement('div')
   const controlsTop = document.createElement('div')
   const controlsBottom = document.createElement('div')
-  const videoContainer = document.createElement('div')
   const loadingSpinner = document.createElement('div')
   const activePlugins = new Map()
   return {
@@ -18,7 +17,6 @@ export const prefillDataStore = (videoElement: HTMLVideoElement): ChezaDataStore
     progress,
     controlsTop,
     controlsBottom,
-    videoContainer,
     loadingSpinner,
     activePlugins
   }

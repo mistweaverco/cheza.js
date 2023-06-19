@@ -4,14 +4,10 @@ exports[`createHTML the html should match the snapshot 1`] = `
 <div
   class="cheza"
 >
+  <video />
   <div
     class="default-ui"
   >
-    <div
-      class="video-container"
-    >
-      <video />
-    </div>
     <div
       class="loading-spinner hidden"
     >

@@ -16,7 +16,6 @@ export interface ChezaDataStore {
   rootElement: HTMLDivElement
   uiRoot: HTMLDivElement
   videoElement: HTMLVideoElement
-  videoContainer: HTMLDivElement
   progressContainer: HTMLDivElement
   progress: HTMLDivElement
   controlsTop: HTMLDivElement
@@ -32,5 +31,6 @@ declare class Cheza {
   public static registerPlugin: (plugin: typeof ChezaPlugin) => boolean
   private readonly _dataStore: ChezaDataStore
   constructor (videoElement: HTMLVideoElement)
-  addPlugin: (pluginName: string) => boolean
+  addPlugin: (pluginName: string, opts?: any) => boolean
+  removePlugin: (pluginName: string, opts?: any) => boolean
 }

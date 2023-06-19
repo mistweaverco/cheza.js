@@ -42,7 +42,7 @@ export const getBottomButtonOpts = (dataStore: ChezaDataStore): ChezaButtonOpts[
         {
           name: 'click',
           callback: () => {
-            dataStore.videoElement.volume = 0
+            dataStore.videoElement.muted = true
           }
         }
       ]
@@ -57,7 +57,7 @@ export const getBottomButtonOpts = (dataStore: ChezaDataStore): ChezaButtonOpts[
         {
           name: 'click',
           callback: () => {
-            dataStore.videoElement.volume = 1
+            dataStore.videoElement.muted = false
           }
         }
       ]

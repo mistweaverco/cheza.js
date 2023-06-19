@@ -30,10 +30,8 @@ export const createHTML = (dataStore: ChezaDataStore): HTMLDivElement => {
   const uiRoot = dataStore.uiRoot
   root.classList.add('cheza')
   uiRoot.classList.add('default-ui')
-  dataStore.videoContainer.classList.add('video-container')
   parentElement.insertBefore(root, dataStore.videoElement)
-  dataStore.videoContainer.appendChild(dataStore.videoElement)
-  uiRoot.appendChild(dataStore.videoContainer)
+  root.appendChild(dataStore.videoElement)
   const loadingSpinnerAnimation = document.createElement('div')
   loadingSpinnerAnimation.classList.add('animation')
   dataStore.loadingSpinner.classList.add('loading-spinner', 'hidden')

@@ -124,14 +124,10 @@ exports[`Cheza should match the dataStore snapshot 1`] = `
   "rootElement": <div
     class="cheza"
   >
+    <video />
     <div
       class="default-ui"
     >
-      <div
-        class="video-container"
-      >
-        <video />
-      </div>
       <div
         class="loading-spinner hidden"
       >
@@ -253,11 +249,6 @@ exports[`Cheza should match the dataStore snapshot 1`] = `
     class="default-ui"
   >
     <div
-      class="video-container"
-    >
-      <video />
-    </div>
-    <div
       class="loading-spinner hidden"
     >
       <div
@@ -372,11 +363,6 @@ exports[`Cheza should match the dataStore snapshot 1`] = `
         </svg>
       </button>
     </div>
-  </div>,
-  "videoContainer": <div
-    class="video-container"
-  >
-    <video />
   </div>,
   "videoElement": <video />,
 }

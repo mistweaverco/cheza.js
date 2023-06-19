@@ -8,6 +8,16 @@ export const addVideoElementListeners = (dataStore: ChezaDataStore): void => {
   const { videoElement } = dataStore
   const progressBar = dataStore.progress
 
+  document.addEventListener('fullscreenchange', () => {
+    if (document.fullscreenElement === dataStore.rootElement) {
+      getButtonByName('enter-fullscreen', dataStore).classList.add('hidden')
+      getButtonByName('exit-fullscreen', dataStore).classList.remove('hidden')
+    } else {
+      getButtonByName('enter-fullscreen', dataStore).classList.remove('hidden')
+      getButtonByName('exit-fullscreen', dataStore).classList.add('hidden')
+    }
+  })
+
   videoElement.addEventListener('click', () => {
     if (videoElement.paused) {
       void videoElement.play()
@@ -43,7 +53,7 @@ export const addVideoElementListeners = (dataStore: ChezaDataStore): void => {
   })
 
   videoElement.addEventListener('volumechange', () => {
-    if (videoElement.volume === 0) {
+    if (videoElement.muted) {
       getButtonByName('volume', dataStore).classList.add('hidden')
       getButtonByName('muted', dataStore).classList.remove('hidden')
     } else {

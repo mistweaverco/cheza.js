@@ -49,12 +49,12 @@ describe('getBottomButtonOpts', () => {
   it('volume button click should trigger muted on the video element', () => {
     const cb = getButtonCallback('volume', 'click')
     cb?.(new Event('click'))
-    expect(dataStore.videoElement.volume).toBe(0)
+    expect(dataStore.videoElement.muted).toBe(true)
   })
   it('unmute button click should trigger unmute on the video element', () => {
     const cb = getButtonCallback('muted', 'click')
     cb?.(new Event('click'))
-    expect(dataStore.videoElement.volume).toBe(1)
+    expect(dataStore.videoElement.muted).toBe(false)
   })
   it('enter-fullscreen button click should trigger fullscreen on the root element', () => {
     const cb = getButtonCallback('enter-fullscreen', 'click')

@@ -11,7 +11,6 @@ describe('prefillDataStore', () => {
     rootElement: document.createElement('div'),
     controlsBottom: document.createElement('div'),
     loadingSpinner: document.createElement('div'),
-    videoContainer: document.createElement('div'),
     progressContainer: document.createElement('div'),
     activePlugins: new Map()
   }
