@@ -2,12 +2,13 @@
   "name": "@mistweaverco/cheza.js-ima-plugin",
   "version": "1.0.0",
   "files": [
-    "dist/*",
-    "types/*"
+    "dist",
+    "types"
   ],
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "release": "tsc && vite build && npm publish --access public"
   },
   "dependencies": {
     "handlebars": "4.7.7"
