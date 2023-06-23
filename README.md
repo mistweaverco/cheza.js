@@ -5,7 +5,7 @@
 [![lint](https://github.com/mistweaverco/cheza.js/actions/workflows/lint.yml/badge.svg)](https://github.com/mistweaverco/cheza.js/actions?query=workflow%3ALint)
 
 
-Customizable 📦, extensible ⚡ and small (4kb) HTML5 Videoplayer 📼.
+Customizable 📦, extensible ⚡ and small **(4kb)** HTML5 Videoplayer 📼.
 
 Cheza is [swahili][cheza-swahili] and means **play**.
 
