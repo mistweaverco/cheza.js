@@ -1,5 +1,5 @@
 {
-  "name": "@mistweaverco/cheza.js-ima-plugin",
+  "name": "@mistweaverco/cheza.js-recommendation-plugin",
   "version": "1.0.0",
   "files": [
     "dist/*",

@@ -7,16 +7,15 @@ const ExampleChezaPlugin: typeof ChezaPlugin = class {
   public static Version = '0.0.1'
 
   constructor () {
-    console.log('ExampleChezaPlugin.constructor()')
     return this
   }
 
-  add = (dataStore: any, opts?: any): void => {
-    console.log('ExampleChezaPlugin.add()', dataStore, opts)
+  add = (dataStore: any): void => {
+    dataStore.example = 'example'
   }
 
-  remove = (dataStore: any, opts?: any): void => {
-    console.log('ExampleChezaPlugin.remove()', dataStore, opts)
+  remove = (dataStore: any): void => {
+    dataStore.example = undefined
   }
 }
 
@@ -61,6 +60,16 @@ describe('Cheza', () => {
     Cheza.registerPlugin(ExampleChezaPlugin)
     const res = cheza.addPlugin(ExampleChezaPlugin.Name)
     expect(res).toBe(true)
+  })
+
+  it('should find a previously added plugin', () => {
+    const res = cheza.getPlugin(ExampleChezaPlugin.Name)
+    expect(res).toBeInstanceOf(ExampleChezaPlugin)
+  })
+
+  it('should not find a random and not previously added plugin', () => {
+    const res = cheza.getPlugin('random')
+    expect(res).toBeUndefined()
   })
 
   it('should succeed to remove a previously registered and added plugin', () => {

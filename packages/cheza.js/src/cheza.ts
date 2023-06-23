@@ -56,6 +56,13 @@ class Cheza {
     }
     return false
   }
+
+  getPlugin = (pluginName: string): ConstructedChezaPlugin | undefined => {
+    if (this._dataStore.activePlugins.has(pluginName)) {
+      return this._dataStore.activePlugins.get(pluginName) as ConstructedChezaPlugin
+    }
+    return undefined
+  }
 };
 
 export { Cheza }

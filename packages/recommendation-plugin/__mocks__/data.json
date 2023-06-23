@@ -1,0 +1,1384 @@
+[
+  {
+    "id": "Nnz6LQV18Clx",
+    "title": "Deutscher \"Titan\"-Tourist: \"Schrecklich für mich”",
+    "image_small": "https://images.t-online.de/2023/06/6YAXjnIycsYs/0x107:2048x1152/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/6YAXjnIycsYs/0x107:2048x1152/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/6YAXjnIycsYs/0x107:2048x1152/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/6YAXjnIycsYs/0x107:2048x1152/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/Nnz6LQV18Clx/hls/video.m3u8"
+    ],
+    "duration": 217,
+    "endpoint": "/api/video/endcard/Nnz6LQV18Clx",
+    "element": {
+      "mediaId": "Nnz6LQV18Clx",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/Nnz6LQV18Clx/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Deutscher \"Titan\"-Tourist: \"Schrecklich für mich”",
+      "duration": {
+        "seconds": 217,
+        "iso8601": "PT3M37S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/6YAXjnIycsYs/0x107:2048x1152/fit-in/__WIDTH__x0/image.jpg",
+          "altText": "TITANIC-SUBMERSIBLE/"
+        },
+        "aspectRatio": "16:9",
+        "source": "OCEANGATE EXPEDITIONS"
+      },
+      "caption": "Deutscher \"Titan\"-Tourist wird emotional: Im Interview beschreibt er das Gefühl in der U-Boot-Kapsel und wie er um seine Freunde bangt.",
+      "partnerSources": [],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100196150/-titan-tauchboot-verschollen-deutscher-berichtet-emotional-von-tauchgang.html"
+    }
+  },
+  {
+    "id": "MJr7UxVoNXGD",
+    "title": "Heftige Gasexplosion in Paris",
+    "image_small": "https://images.t-online.de/2023/06/HHsFxC8qBsLb/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/HHsFxC8qBsLb/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/HHsFxC8qBsLb/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/HHsFxC8qBsLb/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/MJr7UxVoNXGD/hls/video.m3u8"
+    ],
+    "duration": 38,
+    "endpoint": "/api/video/endcard/MJr7UxVoNXGD",
+    "element": {
+      "mediaId": "MJr7UxVoNXGD",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/MJr7UxVoNXGD/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Heftige Gasexplosion in Paris",
+      "duration": {
+        "seconds": 38,
+        "iso8601": "PT38S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/HHsFxC8qBsLb/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": ""
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Eingestürztes Gebäude nach einer Gasexplosion in Paris: Mehrere Menschen wurden verletzt.",
+      "source": "t-online",
+      "partnerSources": [
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "nachrichten",
+      "path": "/tv/nachrichten/id_100195932/heftige-gasexplosion-in-paris.html"
+    }
+  },
+  {
+    "id": "NjoXm1zh7lV8",
+    "title": "Bei einem Probetauchgang waren Insassen eingeschlossen",
+    "image_small": "https://images.t-online.de/2023/06/yumj3DtZIfyP/0x107:2048x1152/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/yumj3DtZIfyP/0x107:2048x1152/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/yumj3DtZIfyP/0x107:2048x1152/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/yumj3DtZIfyP/0x107:2048x1152/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/NjoXm1zh7lV8/hls/video.m3u8"
+    ],
+    "duration": 196,
+    "endpoint": "/api/video/endcard/NjoXm1zh7lV8",
+    "element": {
+      "mediaId": "NjoXm1zh7lV8",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/NjoXm1zh7lV8/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Bei einem Probetauchgang waren Insassen eingeschlossen",
+      "duration": {
+        "seconds": 196,
+        "iso8601": "PT3M16S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/yumj3DtZIfyP/0x107:2048x1152/fit-in/__WIDTH__x0/image.jpg",
+          "altText": "TITANIC-SUBMERSIBLE/"
+        },
+        "aspectRatio": "16:9",
+        "source": "OceanGate Expeditions/Reuters"
+      },
+      "caption": "\"So gut wie sicher\": Ehemalige Passagiere berichten von ihrem Tauchboot-Abenteuer.",
+      "source": "t-online",
+      "partnerSources": [
+        "Reuters",
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100195818/u-boot-verschwunden-ehemaliger-passagier-berichtet-von-problemen.html"
+    }
+  },
+  {
+    "id": "lT6RYX8b6hJe",
+    "title": "Ukrainern gelingen Präzisionsschläge",
+    "image_small": "https://images.t-online.de/2023/06/Dwj0tjLJK5XL/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/Dwj0tjLJK5XL/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/Dwj0tjLJK5XL/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/Dwj0tjLJK5XL/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/lT6RYX8b6hJe/hls/video.m3u8"
+    ],
+    "duration": 47,
+    "endpoint": "/api/video/endcard/lT6RYX8b6hJe",
+    "element": {
+      "mediaId": "lT6RYX8b6hJe",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/lT6RYX8b6hJe/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Ukrainern gelingen Präzisionsschläge",
+      "duration": {
+        "seconds": 47,
+        "iso8601": "PT47S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/Dwj0tjLJK5XL/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": "Ukrainer beeindrucken mit präzisen Bombenangriffen"
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Experten beeindruckt: Ukrainern gelingen offenbar mehrfach Präzisionsschläge mit Drohnen.",
+      "source": "t-online",
+      "partnerSources": [
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "politik",
+      "path": "/tv/nachrichten/politik/id_100195720/ukraine-krieg-hochpraezise-bombenangriffe-beeindrucken-experten.html"
+    }
+  },
+  {
+    "id": "yAC7zTsK4mai",
+    "title": "Historischer Erfolg gegen illegalen Haifisch-Handel",
+    "image_small": "https://images.t-online.de/2023/06/HP4s2AzxCyzd/0x0:960x540/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/HP4s2AzxCyzd/0x0:960x540/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/HP4s2AzxCyzd/0x0:960x540/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/HP4s2AzxCyzd/0x0:960x540/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/yAC7zTsK4mai/hls/video.m3u8"
+    ],
+    "duration": 56,
+    "endpoint": "/api/video/endcard/yAC7zTsK4mai",
+    "element": {
+      "mediaId": "yAC7zTsK4mai",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/yAC7zTsK4mai/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Historischer Erfolg gegen illegalen Haifisch-Handel",
+      "duration": {
+        "seconds": 56,
+        "iso8601": "PT56S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/HP4s2AzxCyzd/0x0:960x540/fit-in/__WIDTH__x0/image.jpg",
+          "altText": "BRASILIEN-HAIFISCH/FLOSSEN"
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Ein gewaltiger, aber auch trauriger Fund: Behörden haben eine Unmenge an Haifischflossen beschlagnahmt.",
+      "source": "Reuters",
+      "partnerSources": [],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100195820/historischer-erfolg-gegen-illegalen-haifisch-handel.html"
+    }
+  },
+  {
+    "id": "S7MeaVV-Juvs",
+    "title": "Klimaaktivisten blockieren Straße – plötzlich greifen Autofahrer an",
+    "image_small": "https://images.t-online.de/2023/06/dRv9OMbEmiQv/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/dRv9OMbEmiQv/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/dRv9OMbEmiQv/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/dRv9OMbEmiQv/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/S7MeaVV-Juvs/hls/video.m3u8"
+    ],
+    "duration": 65,
+    "endpoint": "/api/video/endcard/S7MeaVV-Juvs",
+    "element": {
+      "mediaId": "S7MeaVV-Juvs",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/S7MeaVV-Juvs/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Wütende Autofahrer greifen Klimaaktivisten an",
+      "duration": {
+        "seconds": 65,
+        "iso8601": "PT1M5S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/dRv9OMbEmiQv/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": "Wütende Autofahrer greifen Klimaaktivisten an"
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "\"Du lächerlicher Vogel\": Autofahrer gehen auf Mitglieder der \"Letzten Generation\" los – nun ermittelt die Polizei.",
+      "source": "t-online",
+      "partnerSources": [
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100195272/-letzte-generation-wuetende-autofahrer-greifen-klimaaktivisten-an.html"
+    }
+  },
+  {
+    "id": "ky2WSKFXKzV8",
+    "title": "Als der Name eines Ukrainers fällt, kommt Putins ins Stottern",
+    "image_small": "https://images.t-online.de/2023/06/OlWV6YFvCkNO/0x0:1925x1083/fit-in/768x0/image.png",
+    "image_medium": "https://images.t-online.de/2023/06/OlWV6YFvCkNO/0x0:1925x1083/fit-in/330x0/image.png",
+    "image_large": "https://images.t-online.de/2023/06/OlWV6YFvCkNO/0x0:1925x1083/fit-in/660x0/image.png",
+    "poster": "https://images.t-online.de/2023/06/OlWV6YFvCkNO/0x0:1925x1083/fit-in/1000x0/image.png",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/ky2WSKFXKzV8/hls/video.m3u8"
+    ],
+    "duration": 98,
+    "endpoint": "/api/video/endcard/ky2WSKFXKzV8",
+    "element": {
+      "mediaId": "ky2WSKFXKzV8",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/ky2WSKFXKzV8/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Als der Name eines Ukrainers fällt, kommt Putins ins Stottern",
+      "duration": {
+        "seconds": 98,
+        "iso8601": "PT1M38S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/OlWV6YFvCkNO/0x0:1925x1083/fit-in/__WIDTH__x0/image.png",
+          "altText": ""
+        },
+        "aspectRatio": "16:9",
+        "source": "Twitter/Social"
+      },
+      "caption": "\"Ich...i...i...ich weiß\": Bei einer Frage kommt Putin plötzlich ins Stottern.",
+      "source": "t-online",
+      "partnerSources": [
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "nachrichten",
+      "path": "/tv/nachrichten/id_100195252/wladimir-putin-als-der-name-eines-ukrainers-faellt-beginnt-er-zu-stottern.html"
+    }
+  },
+  {
+    "id": "W6hlSVuWLtDy",
+    "title": "Mann von Blitz getroffen",
+    "image_small": "https://images.t-online.de/2023/06/5onLEdpsANmJ/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/5onLEdpsANmJ/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/5onLEdpsANmJ/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/5onLEdpsANmJ/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/W6hlSVuWLtDy/hls/video.m3u8"
+    ],
+    "duration": 45,
+    "endpoint": "/api/video/endcard/W6hlSVuWLtDy",
+    "element": {
+      "mediaId": "W6hlSVuWLtDy",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/W6hlSVuWLtDy/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Mann von Blitz getroffen",
+      "duration": {
+        "seconds": 45,
+        "iso8601": "PT45S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/5onLEdpsANmJ/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": "Blitz schlägt in Mann ein – der überlebt wie durch ein Wunder"
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Glück im Unglück: Hier trifft der Blitz einen Mann, der überlebt.",
+      "source": "t-online",
+      "partnerSources": [
+        "Reuters"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100195030/unglueck-auf-dem-fussballplatz-mann-wird-von-blitz-getroffen-.html"
+    }
+  },
+  {
+    "id": "zTIUwUoN645d",
+    "title": "Präsident leert Bier auf ex – in 17 Sekunden",
+    "image_small": "https://images.t-online.de/2023/06/Gi7Tei-Oo4cO/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/Gi7Tei-Oo4cO/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/Gi7Tei-Oo4cO/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/Gi7Tei-Oo4cO/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/zTIUwUoN645d/hls/video.m3u8"
+    ],
+    "duration": 74,
+    "endpoint": "/api/video/endcard/zTIUwUoN645d",
+    "element": {
+      "mediaId": "zTIUwUoN645d",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/zTIUwUoN645d/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Präsident trinkt Bier auf ex – und erntet Kritik",
+      "duration": {
+        "seconds": 74,
+        "iso8601": "PT1M14S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/Gi7Tei-Oo4cO/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": "Macron trinkt Bier auf ex – und erntet Kritik"
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Emmanuel Macron: Der französische Präsident feierte ausgelassen mit dem Toulouser Rugby-Team.",
+      "source": "t-online",
+      "partnerSources": [
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "politik",
+      "path": "/tv/nachrichten/politik/id_100194910/frankreichs-praesident-macron-trinkt-bier-auf-ex-und-erntet-kritik-.html"
+    }
+  },
+  {
+    "id": "EdB7Uq1aB-YX",
+    "title": "So sucht die Küstenwache nach dem Tauchboot",
+    "image_small": "https://images.t-online.de/2023/06/cftSsyf8AZa6/0x0:960x540/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/cftSsyf8AZa6/0x0:960x540/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/cftSsyf8AZa6/0x0:960x540/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/cftSsyf8AZa6/0x0:960x540/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/EdB7Uq1aB-YX/hls/video.m3u8"
+    ],
+    "duration": 133,
+    "endpoint": "/api/video/endcard/EdB7Uq1aB-YX",
+    "element": {
+      "mediaId": "EdB7Uq1aB-YX",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/EdB7Uq1aB-YX/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Vermisst: U-Boot mit fünf Touristen auf dem Weg zur \"Titanic\"",
+      "duration": {
+        "seconds": 133,
+        "iso8601": "PT2M13S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/cftSsyf8AZa6/0x0:960x540/fit-in/__WIDTH__x0/image.jpg",
+          "altText": "TITANIC-UBOOT/"
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "US-amerikanische und kanadische Rettungskräfte beteiligen sich an der Suche.",
+      "source": "Reuters",
+      "partnerSources": [],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100194894/tauchboot-mit-fuenf-touristen-auf-dem-weg-zur-titanic-verschwunden.html"
+    }
+  },
+  {
+    "id": "JcZgjV9d6dQI",
+    "title": "Tauchboot im Atlantik verschwunden",
+    "image_small": "https://images.t-online.de/2023/06/aw62Fc7wc8LB/54x14:1829x1029/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/aw62Fc7wc8LB/54x14:1829x1029/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/aw62Fc7wc8LB/54x14:1829x1029/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/aw62Fc7wc8LB/54x14:1829x1029/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/JcZgjV9d6dQI/hls/video.m3u8"
+    ],
+    "duration": 81,
+    "endpoint": "/api/video/endcard/JcZgjV9d6dQI",
+    "element": {
+      "mediaId": "JcZgjV9d6dQI",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/JcZgjV9d6dQI/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Tauchboot im Atlantik verschwunden",
+      "duration": {
+        "seconds": 81,
+        "iso8601": "PT1M21S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/aw62Fc7wc8LB/54x14:1829x1029/fit-in/__WIDTH__x0/image.jpg",
+          "altText": ""
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Such- und Rettungsaktion läuft: Ein Tauchboot, mit dem Touristen das Wrack der \"Titanic\" besichtigen können, ist im Atlantik verschwunden.",
+      "source": "t-online",
+      "partnerSources": [
+        "Reuters",
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100194758/tauchboot-im-atlantik-verschwunden.html"
+    }
+  },
+  {
+    "id": "nSSTrixHxk9h",
+    "title": "Hier kann es kräftig krachen",
+    "image_small": "https://images.t-online.de/2023/06/r8qSxLbkdnD8/0x0:1920x1080/fit-in/768x0/image.png",
+    "image_medium": "https://images.t-online.de/2023/06/r8qSxLbkdnD8/0x0:1920x1080/fit-in/330x0/image.png",
+    "image_large": "https://images.t-online.de/2023/06/r8qSxLbkdnD8/0x0:1920x1080/fit-in/660x0/image.png",
+    "poster": "https://images.t-online.de/2023/06/r8qSxLbkdnD8/0x0:1920x1080/fit-in/1000x0/image.png",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/nSSTrixHxk9h/hls/video.m3u8"
+    ],
+    "duration": 125,
+    "endpoint": "/api/video/endcard/nSSTrixHxk9h",
+    "element": {
+      "mediaId": "nSSTrixHxk9h",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/nSSTrixHxk9h/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Hier kann es kräftig krachen",
+      "duration": {
+        "seconds": 125,
+        "iso8601": "PT2M5S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/r8qSxLbkdnD8/0x0:1920x1080/fit-in/__WIDTH__x0/image.png",
+          "altText": ""
+        },
+        "aspectRatio": "16:9",
+        "source": "wetter.com/Wetter.com"
+      },
+      "caption": "Unwetter droht: Wetteranimation zeigt Gewitterfront über Deutschland.",
+      "source": "t-online",
+      "partnerSources": [
+        "Wetter.com",
+        "Getty Images"
+      ],
+      "commercialVideoZone": "wetter",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "wetter",
+      "path": "/tv/wetter/id_100194654/wetter-hier-drohen-heftige-gewitter-und-starkregen.html"
+    }
+  },
+  {
+    "id": "dBvgUY-k20BK",
+    "title": "Video zeigt Flammen im Europapark – Knall zu hören",
+    "image_small": "https://images.t-online.de/2023/06/-vPp8aGq5Wdv/0x0:1920x1080/fit-in/768x0/image.png",
+    "image_medium": "https://images.t-online.de/2023/06/-vPp8aGq5Wdv/0x0:1920x1080/fit-in/330x0/image.png",
+    "image_large": "https://images.t-online.de/2023/06/-vPp8aGq5Wdv/0x0:1920x1080/fit-in/660x0/image.png",
+    "poster": "https://images.t-online.de/2023/06/-vPp8aGq5Wdv/0x0:1920x1080/fit-in/1000x0/image.png",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/dBvgUY-k20BK/hls/video.m3u8"
+    ],
+    "duration": 42,
+    "endpoint": "/api/video/endcard/dBvgUY-k20BK",
+    "element": {
+      "mediaId": "dBvgUY-k20BK",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/dBvgUY-k20BK/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Video zeigt Rauchsäule über Europapark",
+      "duration": {
+        "seconds": 42,
+        "iso8601": "PT42S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/-vPp8aGq5Wdv/0x0:1920x1080/fit-in/__WIDTH__x0/image.png",
+          "altText": ""
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Brand im Europapark: Videos zeigen Flammen und schwarzen Rauch.",
+      "source": "t-online",
+      "partnerSources": [
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100194640/europapark-video-zeigt-flammen-dann-knallt-es.html"
+    }
+  },
+  {
+    "id": "OGk050pYYDV7",
+    "title": "Großbrand zerstört rund zehn Flugzeuge",
+    "image_small": "https://images.t-online.de/2023/06/eXYnzj8zUWy4/0x0:1920x1080/fit-in/768x0/image.png",
+    "image_medium": "https://images.t-online.de/2023/06/eXYnzj8zUWy4/0x0:1920x1080/fit-in/330x0/image.png",
+    "image_large": "https://images.t-online.de/2023/06/eXYnzj8zUWy4/0x0:1920x1080/fit-in/660x0/image.png",
+    "poster": "https://images.t-online.de/2023/06/eXYnzj8zUWy4/0x0:1920x1080/fit-in/1000x0/image.png",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/OGk050pYYDV7/hls/video.m3u8"
+    ],
+    "duration": 58,
+    "endpoint": "/api/video/endcard/OGk050pYYDV7",
+    "element": {
+      "mediaId": "OGk050pYYDV7",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/OGk050pYYDV7/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Großbrand zerstört rund zehn Flugzeuge",
+      "duration": {
+        "seconds": 58,
+        "iso8601": "PT58S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/eXYnzj8zUWy4/0x0:1920x1080/fit-in/__WIDTH__x0/image.png",
+          "altText": ""
+        },
+        "aspectRatio": "16:9",
+        "source": "TNN / dpa/dpa"
+      },
+      "caption": "In der Halle standen mehrere Flugzeuge: Der Schaden gehe in die Millionenhöhe.",
+      "source": "t-online",
+      "partnerSources": [
+        "dpa"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "nachrichten",
+      "path": "/tv/nachrichten/id_100194582/grossbrand-zerstoert-rund-zehn-flugzeuge.html"
+    }
+  },
+  {
+    "id": "L48D2-6pzm9r",
+    "title": "\"Wenn die so weitermachen, sind sie wirklich die letzte Generation\"",
+    "image_small": "https://images.t-online.de/2023/06/AZ0oOhstbsiK/0x0:1829x1029/fit-in/768x0/image.png",
+    "image_medium": "https://images.t-online.de/2023/06/AZ0oOhstbsiK/0x0:1829x1029/fit-in/330x0/image.png",
+    "image_large": "https://images.t-online.de/2023/06/AZ0oOhstbsiK/0x0:1829x1029/fit-in/660x0/image.png",
+    "poster": "https://images.t-online.de/2023/06/AZ0oOhstbsiK/0x0:1829x1029/fit-in/1000x0/image.png",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/L48D2-6pzm9r/hls/video.m3u8"
+    ],
+    "duration": 124,
+    "endpoint": "/api/video/endcard/L48D2-6pzm9r",
+    "element": {
+      "mediaId": "L48D2-6pzm9r",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/L48D2-6pzm9r/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "\"Wenn die so weitermachen, sind sie wirklich die letzte Generation\"",
+      "duration": {
+        "seconds": 124,
+        "iso8601": "PT2M4S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/AZ0oOhstbsiK/0x0:1829x1029/fit-in/__WIDTH__x0/image.png",
+          "altText": ""
+        },
+        "aspectRatio": "16:9",
+        "source": "t-online/t-online"
+      },
+      "caption": "Protest der \"Letzte Generation\" auf Sylt: Edith aus Düsseldorf hat eine klare Meinung.",
+      "source": "t-online",
+      "partnerSources": [
+        "dpa",
+        "Pressematerial"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100194394/letzte-generation-proteste-auf-sylt-dann-sind-sie-wirklich-die-letzte-generation-.html"
+    }
+  },
+  {
+    "id": "toyAl0rEsv0y",
+    "title": "\"Kamikaze\"-Panzer hält auf Ukrainer zu – dann folgt die Explosion",
+    "image_small": "https://images.t-online.de/2023/06/aTqSqUizqdGp/0x0:1920x1080/fit-in/768x0/ein-russischer-panzer-wurd-zerstoert.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/aTqSqUizqdGp/0x0:1920x1080/fit-in/330x0/ein-russischer-panzer-wurd-zerstoert.jpg",
+    "image_large": "https://images.t-online.de/2023/06/aTqSqUizqdGp/0x0:1920x1080/fit-in/660x0/ein-russischer-panzer-wurd-zerstoert.jpg",
+    "poster": "https://images.t-online.de/2023/06/aTqSqUizqdGp/0x0:1920x1080/fit-in/1000x0/ein-russischer-panzer-wurd-zerstoert.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/toyAl0rEsv0y/hls/video.m3u8"
+    ],
+    "duration": 82,
+    "endpoint": "/api/video/endcard/toyAl0rEsv0y",
+    "element": {
+      "mediaId": "toyAl0rEsv0y",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/toyAl0rEsv0y/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Panzer hält auf Ukrainer zu – dann folgt die Explosion",
+      "duration": {
+        "seconds": 82,
+        "iso8601": "PT1M22S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/aTqSqUizqdGp/0x0:1920x1080/fit-in/__WIDTH__x0/ein-russischer-panzer-wurd-zerstoert.jpg",
+          "altText": "Ein russischer Panzer wurd zerstört"
+        },
+        "aspectRatio": "16:9",
+        "source": "Screenshot Twitter/Social",
+        "caption": "Ein russischer Panzer wurd zerstört"
+      },
+      "caption": "Gewaltige Explosion: Diese Szene zeigt, wie ein russischer Panzer mit gefährlicher Ladung in die Luft fliegt.",
+      "source": "t-online",
+      "partnerSources": [
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100194190/-kamikaze-panzer-haelt-auf-ukrainer-zu-ploetzlich-kommt-es-zur-explosion.html"
+    }
+  },
+  {
+    "id": "qUOsvHZkerc8",
+    "title": "Video zeigt mutmaßlichen Armbrust-Schützen kurz vor der Tat",
+    "image_small": "https://images.t-online.de/2023/06/XtwOnmjFeLB4/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/XtwOnmjFeLB4/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/XtwOnmjFeLB4/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/XtwOnmjFeLB4/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/qUOsvHZkerc8/hls/video.m3u8"
+    ],
+    "duration": 58,
+    "endpoint": "/api/video/endcard/qUOsvHZkerc8",
+    "element": {
+      "mediaId": "qUOsvHZkerc8",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/qUOsvHZkerc8/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Video zeigt mutmaßlichen Armbrust-Schützen kurz vor der Tat",
+      "duration": {
+        "seconds": 58,
+        "iso8601": "PT58S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/XtwOnmjFeLB4/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": ""
+        },
+        "aspectRatio": "16:9",
+        "source": "Social"
+      },
+      "caption": "Angriff in Peine: Ein Mann hat mit einer Armbrust um sich geschossen. Das Video zeigt ihn vor der Tat.",
+      "source": "t-online",
+      "partnerSources": [],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100193946/video-zeigt-mutmasslichen-armbrust-schuetzen-kurz-vor-der-tat.html"
+    }
+  },
+  {
+    "id": "B1gZFIHJZUXm",
+    "title": "Das ist das wohl stärkste Kampfflugzeug der Welt ",
+    "image_small": "https://images.t-online.de/2023/06/Ahs8MRvJPSOk/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/Ahs8MRvJPSOk/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/Ahs8MRvJPSOk/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/Ahs8MRvJPSOk/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/B1gZFIHJZUXm/hls/video.m3u8"
+    ],
+    "duration": 71,
+    "endpoint": "/api/video/endcard/B1gZFIHJZUXm",
+    "element": {
+      "mediaId": "B1gZFIHJZUXm",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/B1gZFIHJZUXm/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Das ist das wohl stärkste Kampfflugzeug der Welt",
+      "duration": {
+        "seconds": 71,
+        "iso8601": "PT1M11S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/Ahs8MRvJPSOk/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": ""
+        },
+        "aspectRatio": "16:9",
+        "source": "Cover-Images/imago images"
+      },
+      "caption": "\"Warzenschwein\": Das wohl stärkste Erdkampfflugzeug fliegt jetzt auch in Deutschland.",
+      "source": "t-online",
+      "partnerSources": [
+        "Reuters"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100193900/air-defender-manoever-das-ist-das-wohl-staerkste-kampfflugzeug-der-welt.html"
+    }
+  },
+  {
+    "id": "Z1c3IQR5STFs",
+    "title": "Putin kritisiert Friedensvorschläge afrikanischer Delegation",
+    "image_small": "https://images.t-online.de/2023/06/SngNGhTiOz0S/0x0:1920x1080/fit-in/768x0/image.png",
+    "image_medium": "https://images.t-online.de/2023/06/SngNGhTiOz0S/0x0:1920x1080/fit-in/330x0/image.png",
+    "image_large": "https://images.t-online.de/2023/06/SngNGhTiOz0S/0x0:1920x1080/fit-in/660x0/image.png",
+    "poster": "https://images.t-online.de/2023/06/SngNGhTiOz0S/0x0:1920x1080/fit-in/1000x0/image.png",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/Z1c3IQR5STFs/hls/video.m3u8"
+    ],
+    "duration": 103,
+    "endpoint": "/api/video/endcard/Z1c3IQR5STFs",
+    "element": {
+      "mediaId": "Z1c3IQR5STFs",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/Z1c3IQR5STFs/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Putin kritisiert Friedensvorschläge afrikanischer Delegation",
+      "duration": {
+        "seconds": 103,
+        "iso8601": "PT1M43S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/SngNGhTiOz0S/0x0:1920x1080/fit-in/__WIDTH__x0/image.png",
+          "altText": ""
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Wladimir Putin: Der Kremls-Chef gestikuliert beim Treffen mit Vertretern afrikanischer Staaten in Moskau und unterbricht die Runde.",
+      "source": "Reuters",
+      "partnerSources": [],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "politik",
+      "path": "/tv/nachrichten/politik/id_100193916/putin-kritisiert-friedensvorschlaege-afrikanischer-delegation.html"
+    }
+  },
+  {
+    "id": "pdj4eQU2Lmun",
+    "title": "Putins “Alligator\" schnappt nach deutschen Leopard-Panzern ",
+    "image_small": "https://images.t-online.de/2023/06/ZMhMdladZH8M/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/ZMhMdladZH8M/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/ZMhMdladZH8M/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/ZMhMdladZH8M/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/pdj4eQU2Lmun/hls/video.m3u8"
+    ],
+    "duration": 73,
+    "endpoint": "/api/video/endcard/pdj4eQU2Lmun",
+    "element": {
+      "mediaId": "pdj4eQU2Lmun",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/pdj4eQU2Lmun/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Putins “Alligator\" schnappt nach deutschen Leopard-Panzern",
+      "duration": {
+        "seconds": 73,
+        "iso8601": "PT1M13S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/ZMhMdladZH8M/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": ""
+        },
+        "aspectRatio": "16:9",
+        "source": "Social"
+      },
+      "caption": "Abschuss deutscher Panzer: Video zeigt, wie hochgerüstete russische Kampfhubschrauber der Ukraine zusetzen.",
+      "source": "t-online",
+      "partnerSources": [
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "politik",
+      "path": "/tv/nachrichten/politik/id_100193850/putins-alligator-schnappt-nach-deutschen-leopard-panzern-.html"
+    }
+  },
+  {
+    "id": "I64LS4M6NrjN",
+    "title": "Baerbock verteidigt Zustimmung zum EU-Asyl-Kompromiss",
+    "image_small": "https://images.t-online.de/2023/06/eGNyPGR3cfea/0x0:960x540/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/eGNyPGR3cfea/0x0:960x540/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/eGNyPGR3cfea/0x0:960x540/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/eGNyPGR3cfea/0x0:960x540/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/I64LS4M6NrjN/hls/video.m3u8"
+    ],
+    "duration": 149,
+    "endpoint": "/api/video/endcard/I64LS4M6NrjN",
+    "element": {
+      "mediaId": "I64LS4M6NrjN",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/I64LS4M6NrjN/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Baerbock verteidigt Zustimmung zum EU-Asyl-Kompromiss",
+      "duration": {
+        "seconds": 149,
+        "iso8601": "PT2M29S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/eGNyPGR3cfea/0x0:960x540/fit-in/__WIDTH__x0/image.jpg",
+          "altText": "GRUENE-LAENDERRAT/"
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Annalena Baerbock: \"Wir haben in den letzten Wochen gespürt, wie sehr uns dieser Kompromiss zerreißt.\"",
+      "source": "Reuters",
+      "partnerSources": [],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "politik",
+      "path": "/tv/nachrichten/politik/id_100193832/baerbock-verteidigt-zustimmung-zum-eu-asyl-kompromiss.html"
+    }
+  },
+  {
+    "id": "kjNBwnWoWRyS",
+    "title": "Massenschlägerei im Ruhrpott: Mindestens 80 Beteiligte",
+    "image_small": "https://images.t-online.de/2023/06/VvrirQps5LCm/0x2:2048x1152/fit-in/768x0/polizisten-bewachen-mitglieder-einer-der-beteiligten-gruppen-einer-schlaegerei-in-der-innenstadt-in-der-nacht-zum-samstag-ist-es-dort-zu-gewalttaetigen-auseinandersetzungen-zwischen-mehreren-gruppen-gekommen-hunderte-menschen-hatten-sich-aus-bislang-ungeklaerter-ursache-im-innenstadtbereich-versammelt-wie-eine-polizeisprecherin-sagte.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/VvrirQps5LCm/0x2:2048x1152/fit-in/330x0/polizisten-bewachen-mitglieder-einer-der-beteiligten-gruppen-einer-schlaegerei-in-der-innenstadt-in-der-nacht-zum-samstag-ist-es-dort-zu-gewalttaetigen-auseinandersetzungen-zwischen-mehreren-gruppen-gekommen-hunderte-menschen-hatten-sich-aus-bislang-ungeklaerter-ursache-im-innenstadtbereich-versammelt-wie-eine-polizeisprecherin-sagte.jpg",
+    "image_large": "https://images.t-online.de/2023/06/VvrirQps5LCm/0x2:2048x1152/fit-in/660x0/polizisten-bewachen-mitglieder-einer-der-beteiligten-gruppen-einer-schlaegerei-in-der-innenstadt-in-der-nacht-zum-samstag-ist-es-dort-zu-gewalttaetigen-auseinandersetzungen-zwischen-mehreren-gruppen-gekommen-hunderte-menschen-hatten-sich-aus-bislang-ungeklaerter-ursache-im-innenstadtbereich-versammelt-wie-eine-polizeisprecherin-sagte.jpg",
+    "poster": "https://images.t-online.de/2023/06/VvrirQps5LCm/0x2:2048x1152/fit-in/1000x0/polizisten-bewachen-mitglieder-einer-der-beteiligten-gruppen-einer-schlaegerei-in-der-innenstadt-in-der-nacht-zum-samstag-ist-es-dort-zu-gewalttaetigen-auseinandersetzungen-zwischen-mehreren-gruppen-gekommen-hunderte-menschen-hatten-sich-aus-bislang-ungeklaerter-ursache-im-innenstadtbereich-versammelt-wie-eine-polizeisprecherin-sagte.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/kjNBwnWoWRyS/hls/video.m3u8"
+    ],
+    "duration": 54,
+    "endpoint": "/api/video/endcard/kjNBwnWoWRyS",
+    "element": {
+      "mediaId": "kjNBwnWoWRyS",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/kjNBwnWoWRyS/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Massenschlägerei im Ruhrpott: Mindestens 80 Beteiligte",
+      "duration": {
+        "seconds": 54,
+        "iso8601": "PT54S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/VvrirQps5LCm/0x2:2048x1152/fit-in/__WIDTH__x0/polizisten-bewachen-mitglieder-einer-der-beteiligten-gruppen-einer-schlaegerei-in-der-innenstadt-in-der-nacht-zum-samstag-ist-es-dort-zu-gewalttaetigen-auseinandersetzungen-zwischen-mehreren-gruppen-gekommen-hunderte-menschen-hatten-sich-aus-bislang-ungeklaerter-ursache-im-innenstadtbereich-versammelt-wie-eine-polizeisprecherin-sagte.jpg",
+          "altText": "Gewaltsame Auseinandersetzungen mit Hunderten Beteiligten"
+        },
+        "aspectRatio": "16:9",
+        "source": "Markus Gayk/dpa/dpa-bilder",
+        "caption": "Polizisten bewachen Mitglieder einer der beteiligten Gruppen einer Schlägerei in der Innenstadt. In der Nacht zum Samstag ist es dort zu gewalttätigen Auseinandersetzungen zwischen mehreren Gruppen gekommen. Hunderte Menschen hatten sich aus bislang ungeklärter Ursache im Innenstadtbereich versammelt, wie eine Polizeisprecherin sagte."
+      },
+      "caption": "Essen: In der zweiten Nacht in Folge kam es im Ruhrgebiet zu Schlägereien mit mehreren hundert Beteiligten.",
+      "partnerSources": [],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100193730/massenschlaegerei-im-ruhrpott-mindestens-80-beteiligte.html"
+    }
+  },
+  {
+    "id": "y7IX-28RQRCs",
+    "title": "Ukrainer retten russische Soldaten – plötzlich folgt feindlicher Beschuss",
+    "image_small": "https://images.t-online.de/2023/06/ru1r9uUS12tu/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/ru1r9uUS12tu/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/ru1r9uUS12tu/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/ru1r9uUS12tu/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/y7IX-28RQRCs/hls/video.m3u8"
+    ],
+    "duration": 81,
+    "endpoint": "/api/video/endcard/y7IX-28RQRCs",
+    "element": {
+      "mediaId": "y7IX-28RQRCs",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/y7IX-28RQRCs/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Ukrainer retten russische Soldaten – plötzlich folgt feindlicher Beschuss",
+      "duration": {
+        "seconds": 81,
+        "iso8601": "PT1M21S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/ru1r9uUS12tu/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": ""
+        },
+        "aspectRatio": "16:9",
+        "source": "Social"
+      },
+      "caption": "Flutkatastrophe: Videos sollen zeigen, wie ukrainische Soldaten einige ihrer Gegner vor dem Ertrinken retten.",
+      "source": "t-online",
+      "partnerSources": [
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "politik",
+      "path": "/tv/nachrichten/politik/id_100193720/ukrainer-retten-russische-soldaten-ploetzlich-folgt-feindlicher-.html"
+    }
+  },
+  {
+    "id": "Mq4DkWhxRZ6G",
+    "title": "Video zeigt offenbar Großangriff auf russische Truppenversammung",
+    "image_small": "https://images.t-online.de/2023/06/Z3SaXFpQ6Azx/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/Z3SaXFpQ6Azx/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/Z3SaXFpQ6Azx/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/Z3SaXFpQ6Azx/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/Mq4DkWhxRZ6G/hls/video.m3u8"
+    ],
+    "duration": 76,
+    "endpoint": "/api/video/endcard/Mq4DkWhxRZ6G",
+    "element": {
+      "mediaId": "Mq4DkWhxRZ6G",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/Mq4DkWhxRZ6G/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Video zeigt offenbar Großangriff auf russische Truppenversammung",
+      "duration": {
+        "seconds": 76,
+        "iso8601": "PT1M16S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/Z3SaXFpQ6Azx/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": ""
+        },
+        "aspectRatio": "16:9",
+        "source": "Social"
+      },
+      "caption": "Großangriff: Der Ukraine ist offenbar ein tödlicher Schlag gegen russische Truppen gelungen, wie das Video zeigen soll.",
+      "source": "t-online",
+      "partnerSources": [
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "politik",
+      "path": "/tv/nachrichten/politik/id_100193640/video-zeigt-offenbar-grossangriff-auf-russische-truppenversammung.html"
+    }
+  },
+  {
+    "id": "jDOIfLLC2rrt",
+    "title": "Felsmassen verfehlen Dorf nur knapp",
+    "image_small": "https://images.t-online.de/2023/06/fK-hMPB9fST4/0x0:960x540/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/fK-hMPB9fST4/0x0:960x540/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/fK-hMPB9fST4/0x0:960x540/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/fK-hMPB9fST4/0x0:960x540/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/jDOIfLLC2rrt/hls/video.m3u8"
+    ],
+    "duration": 59,
+    "endpoint": "/api/video/endcard/jDOIfLLC2rrt",
+    "element": {
+      "mediaId": "jDOIfLLC2rrt",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/jDOIfLLC2rrt/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Felsmassen verfehlen Dorf nur knapp",
+      "duration": {
+        "seconds": 59,
+        "iso8601": "PT59S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/fK-hMPB9fST4/0x0:960x540/fit-in/__WIDTH__x0/image.jpg",
+          "altText": "BRIENZ-FELSSTURZ/ALPEN"
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Berg zerbröckelt: Erneut ist eine Gesteinslawine oberhalb von Brienz abgegangen.",
+      "source": "Reuters",
+      "partnerSources": [],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100193444/brienz-felsmassen-verfehlen-dorf-nur-knapp.html"
+    }
+  },
+  {
+    "id": "W4oWxTAPr60x",
+    "title": "Kampfjets üben Manöver – plötzlich kracht es",
+    "image_small": "https://images.t-online.de/2023/06/k29eLeOgiGXl/414x312:1365x768/fit-in/768x0/image.png",
+    "image_medium": "https://images.t-online.de/2023/06/k29eLeOgiGXl/414x312:1365x768/fit-in/330x0/image.png",
+    "image_large": "https://images.t-online.de/2023/06/k29eLeOgiGXl/414x312:1365x768/fit-in/660x0/image.png",
+    "poster": "https://images.t-online.de/2023/06/k29eLeOgiGXl/414x312:1365x768/fit-in/1000x0/image.png",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/W4oWxTAPr60x/hls/video.m3u8"
+    ],
+    "duration": 53,
+    "endpoint": "/api/video/endcard/W4oWxTAPr60x",
+    "element": {
+      "mediaId": "W4oWxTAPr60x",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/W4oWxTAPr60x/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Kampfjets kollidieren bei Flugübung",
+      "duration": {
+        "seconds": 53,
+        "iso8601": "PT53S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/k29eLeOgiGXl/414x312:1365x768/fit-in/__WIDTH__x0/image.png",
+          "altText": ""
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Zusammenstoß in der Luft: Aufnahmen zeigen Kollision von Kampfjets.",
+      "source": "t-online",
+      "partnerSources": [
+        "Social"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100193394/kampfjets-kollidieren-in-der-schweiz-flugzeugteil-stuerzt-auf-haus-person-verletzt.html"
+    }
+  },
+  {
+    "id": "8BQQYgkBeh2s",
+    "title": "OB-Stichwahl in Schwerin: Das denken die Anwohner",
+    "image_small": "https://images.t-online.de/2023/06/Ir7rihNyN1MB/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/Ir7rihNyN1MB/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/Ir7rihNyN1MB/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/Ir7rihNyN1MB/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/8BQQYgkBeh2s/hls/video.m3u8"
+    ],
+    "duration": 165,
+    "endpoint": "/api/video/endcard/8BQQYgkBeh2s",
+    "element": {
+      "mediaId": "8BQQYgkBeh2s",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/8BQQYgkBeh2s/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "OB-Stichwahl in Schwerin: Das denken die Anwohner",
+      "duration": {
+        "seconds": 165,
+        "iso8601": "PT2M45S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/Ir7rihNyN1MB/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": ""
+        },
+        "aspectRatio": "16:9",
+        "source": "imago images"
+      },
+      "caption": "Sie treten gegeneinander an: Amtsinhaber Rico Badenschier von der SPD und der AfD-Bundestagsabgeordnete Leif-Erik Holm. Im Video äußern sich Schweriner zur Wahl.",
+      "source": "t-online",
+      "partnerSources": [],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "politik",
+      "path": "/tv/nachrichten/politik/id_100193388/ob-stichwahl-in-schwerin-das-denken-die-anwohner.html"
+    }
+  },
+  {
+    "id": "KQTu6mmvVveP",
+    "title": "Riesiger Vogel kracht durch Flugzeugfenster",
+    "image_small": "https://images.t-online.de/2023/06/N58Tudbjw5qv/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/N58Tudbjw5qv/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/N58Tudbjw5qv/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/N58Tudbjw5qv/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/KQTu6mmvVveP/hls/video.m3u8"
+    ],
+    "duration": 98,
+    "endpoint": "/api/video/endcard/KQTu6mmvVveP",
+    "element": {
+      "mediaId": "KQTu6mmvVveP",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/KQTu6mmvVveP/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Riesiger Vogel kracht durch Flugzeugfenster",
+      "duration": {
+        "seconds": 98,
+        "iso8601": "PT1M38S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/N58Tudbjw5qv/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": ""
+        },
+        "aspectRatio": "16:9",
+        "source": "Social"
+      },
+      "caption": "Aufnahmen aus dem Cockpit: Die Beine des Vogels hängen über den Flugzeugarmaturen.",
+      "source": "t-online",
+      "partnerSources": [
+        "Social",
+        "Reuters"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "panorama",
+      "path": "/tv/nachrichten/panorama/id_100193360/riesiger-vogel-kracht-durch-flugzeugfenster.html"
+    }
+  },
+  {
+    "id": "LrE3Vlz77a-b",
+    "title": "Experte: \"Ist der Bösewicht unter uns?\"",
+    "image_small": "https://images.t-online.de/2023/06/laBsZG7oiAt7/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/laBsZG7oiAt7/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/laBsZG7oiAt7/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/laBsZG7oiAt7/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/LrE3Vlz77a-b/hls/video.m3u8"
+    ],
+    "duration": 193,
+    "endpoint": "/api/video/endcard/LrE3Vlz77a-b",
+    "element": {
+      "mediaId": "LrE3Vlz77a-b",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/LrE3Vlz77a-b/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "Gefahren hybrider Kriegsführung in Deutschland",
+      "duration": {
+        "seconds": 193,
+        "iso8601": "PT3M13S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/laBsZG7oiAt7/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": "Gefahren hybrider Kriegsführung in Deutschland"
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Hybride Kriegsführung: Ein Experte erklärt, welche Gefahren sie birgt.",
+      "source": "t-online",
+      "partnerSources": [
+        "Reuters",
+        "Social",
+        "Getty Images"
+      ],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "politik",
+      "path": "/tv/nachrichten/politik/id_100193310/gefahren-hybrider-kriegsfuehrung-in-deutschland.html"
+    }
+  },
+  {
+    "id": "OBCRChhkyxqR",
+    "title": "\"Letzte Generation\" sorgt mit neuer Attacke auf Sylt für Aufsehen",
+    "image_small": "https://images.t-online.de/2023/06/6m9hXa1U2ttM/0x0:1920x1080/fit-in/768x0/image.jpg",
+    "image_medium": "https://images.t-online.de/2023/06/6m9hXa1U2ttM/0x0:1920x1080/fit-in/330x0/image.jpg",
+    "image_large": "https://images.t-online.de/2023/06/6m9hXa1U2ttM/0x0:1920x1080/fit-in/660x0/image.jpg",
+    "poster": "https://images.t-online.de/2023/06/6m9hXa1U2ttM/0x0:1920x1080/fit-in/1000x0/image.jpg",
+    "playlists": [
+      "https://videos.t-online.de/2023/06/OBCRChhkyxqR/hls/video.m3u8"
+    ],
+    "duration": 62,
+    "endpoint": "/api/video/endcard/OBCRChhkyxqR",
+    "element": {
+      "mediaId": "OBCRChhkyxqR",
+      "type": "video_player_stroeer",
+      "sources": [
+        {
+          "url": "https://videos.t-online.de/2023/06/OBCRChhkyxqR/hls/video.m3u8",
+          "fileName": "video",
+          "mimeType": "application/vnd.apple.mpegurl"
+        }
+      ],
+      "title": "\"Letzte Generation\" attackiert Luxusgeschäfte auf Sylt",
+      "duration": {
+        "seconds": 62,
+        "iso8601": "PT1M2S"
+      },
+      "poster": {
+        "type": "image",
+        "img": {
+          "url": "https://images.t-online.de/2023/06/6m9hXa1U2ttM/0x0:1920x1080/fit-in/__WIDTH__x0/image.jpg",
+          "altText": ""
+        },
+        "aspectRatio": "16:9"
+      },
+      "caption": "Farbanschlag auf Sylt: Aktivisten der \"Letzten Generation\" bekommen einen Gegenschlag zu spüren – in Grün.",
+      "source": "t-online",
+      "partnerSources": [],
+      "commercialVideoZone": "news",
+      "commercialPreroll": true,
+      "trackingVideoRessort": "nachrichten",
+      "path": "/tv/nachrichten/id_100193302/-letzte-generation-attackiert-luxusgeschaefte-auf-sylt-.html"
+    }
+  }
+]

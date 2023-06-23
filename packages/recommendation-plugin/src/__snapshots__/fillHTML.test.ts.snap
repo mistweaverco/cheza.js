@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fillData should fill the HTML with the data from mocks and match the snapshot 1`] = `
+"
+<style>
+.recommendation-plugin-tile-0 .recommendation-plugin-thumbnail {
+  background-image: url(https://images.t-online.de/2023/06/6YAXjnIycsYs/0x107:2048x1152/fit-in/768x0/image.jpg);
+}
+
+@media only screen and (min-width: 769px) {
+  .recommendation-plugin-tile-0 .recommendation-plugin-thumbnail {
+    /*background-image: url(\${index === 0 ? obj.image_large : obj.image_medium});*/
+    background-image: url(https://images.t-online.de/2023/06/6YAXjnIycsYs/0x107:2048x1152/fit-in/330x0/image.jpg);
+  }
+}
+</style>
+<div class="recommendation-plugin-tile recommendation-plugin-tile-0" data-idx="0" data-role="recommendation-plugin-tile">
+    <button class="recommendation-plugin-button-pause" data-role="recommendation-plugin-pause">Anhalten</button>
+  <div class="recommendation-plugin-thumbnail"></div>
+  <div class="recommendation-plugin-overlay">
+    <svg class="recommendation-plugin-revolverplay-icon" data-role="recommendation-plugin-revolverplay-icon" width="103" height="75" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g filter="url(#filter0_d)">
+      <path d="M62.073 37.89l-20-13.333A1.334 1.334 0 0040 25.667v26.666a1.334 1.334 0 002.073 1.11l20-13.334a1.335 1.335 0 000-2.218z" fill="#fff"></path>
+      </g>
+      <circle class="recommendation-plugin-progress-meter" cx="48" cy="39" r="30.667" fill="none" stroke="#fff" stroke-width="2.667"></circle>
+      <circle class="recommendation-plugin-progress-value" data-role="recommendation-plugin-progress-value" cx="48" cy="39" r="30.667" transform="rotate(-90 48 39)" fill="none" stroke="#fff" stroke-width="2.667" stroke-dasharray="192.686" stroke-dashoffset="192.686"></circle>
+      <defs>
+      <filter id="filter0_d" x="-5.333" y="-1" width="112" height="112" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix>
+      <feOffset dy="16"></feOffset><feGaussianBlur stdDeviation="20"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0.490196 0 0 0 0 0.596078 0 0 0 0 0.698039 0 0 0 0.2 0"></feColorMatrix>
+      <feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow"></feBlend>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"></feBlend>
+      </filter>
+      </defs>
+    </svg>
+    <p class="recommendation-plugin-title">
+      <span class="recommendation-plugin-title-pre">Nächstes Video</span>
+    <span class="recommendation-plugin-title-main">Deutscher "Titan"-Tourist: "Schrecklich für mich”</span>
+    </p>
+  </div>
+</div>
+
+<style>
+.recommendation-plugin-tile-1 .recommendation-plugin-thumbnail {
+  background-image: url(https://images.t-online.de/2023/06/HHsFxC8qBsLb/0x0:1920x1080/fit-in/768x0/image.jpg);
+}
+
+@media only screen and (min-width: 769px) {
+  .recommendation-plugin-tile-1 .recommendation-plugin-thumbnail {
+    /*background-image: url(\${index === 0 ? obj.image_large : obj.image_medium});*/
+    background-image: url(https://images.t-online.de/2023/06/HHsFxC8qBsLb/0x0:1920x1080/fit-in/330x0/image.jpg);
+  }
+}
+</style>
+<div class="recommendation-plugin-tile recommendation-plugin-tile-1" data-idx="1" data-role="recommendation-plugin-tile">
+  <div class="recommendation-plugin-thumbnail"></div>
+  <div class="recommendation-plugin-overlay">
+    <p class="recommendation-plugin-title">
+    <span class="recommendation-plugin-title-main">Heftige Gasexplosion in Paris</span>
+    </p>
+  </div>
+</div>
+
+<style>
+.recommendation-plugin-tile-2 .recommendation-plugin-thumbnail {
+  background-image: url(https://images.t-online.de/2023/06/yumj3DtZIfyP/0x107:2048x1152/fit-in/768x0/image.jpg);
+}
+
+@media only screen and (min-width: 769px) {
+  .recommendation-plugin-tile-2 .recommendation-plugin-thumbnail {
+    /*background-image: url(\${index === 0 ? obj.image_large : obj.image_medium});*/
+    background-image: url(https://images.t-online.de/2023/06/yumj3DtZIfyP/0x107:2048x1152/fit-in/330x0/image.jpg);
+  }
+}
+</style>
+<div class="recommendation-plugin-tile recommendation-plugin-tile-2" data-idx="2" data-role="recommendation-plugin-tile">
+  <div class="recommendation-plugin-thumbnail"></div>
+  <div class="recommendation-plugin-overlay">
+    <p class="recommendation-plugin-title">
+    <span class="recommendation-plugin-title-main">Bei einem Probetauchgang waren Insassen eingeschlossen</span>
+    </p>
+  </div>
+</div>
+
+    <div class="recommendation-plugin-tile-replay" data-role="recommendation-plugin-tile-replay">
+      <div class="recommendation-plugin-thumbnail" style="background-image: url();"></div>
+      <div class="recommendation-plugin-overlay">
+        <svg class="recommendation-plugin-replay-icon" width="26" height="21" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19 16H1C0.447715 16 0 15.5523 0 15V10C0 9.44772 0.447715 9 1 9C1.55228 9 2 9.44772 2 10V14H18V5H8V8L3 4L8 0V3H19C19.553 3 20 3.447 20 4V15C20 15.553 19.553 16 19 16Z" fill="white"></path>
+        </svg>
+        <p class="recommendation-plugin-replay-title">Video wiederholen</p>
+      </div>
+    </div>
+<style>
+.recommendation-plugin-tile-3 .recommendation-plugin-thumbnail {
+  background-image: url(https://images.t-online.de/2023/06/Dwj0tjLJK5XL/0x0:1920x1080/fit-in/768x0/image.jpg);
+}
+
+@media only screen and (min-width: 769px) {
+  .recommendation-plugin-tile-3 .recommendation-plugin-thumbnail {
+    /*background-image: url(\${index === 0 ? obj.image_large : obj.image_medium});*/
+    background-image: url(https://images.t-online.de/2023/06/Dwj0tjLJK5XL/0x0:1920x1080/fit-in/330x0/image.jpg);
+  }
+}
+</style>
+<div class="recommendation-plugin-tile recommendation-plugin-tile-3" data-idx="3" data-role="recommendation-plugin-tile">
+  <div class="recommendation-plugin-thumbnail"></div>
+  <div class="recommendation-plugin-overlay">
+    <p class="recommendation-plugin-title">
+    <span class="recommendation-plugin-title-main">Ukrainern gelingen Präzisionsschläge</span>
+    </p>
+  </div>
+</div>
+
+<style>
+.recommendation-plugin-tile-4 .recommendation-plugin-thumbnail {
+  background-image: url(https://images.t-online.de/2023/06/HP4s2AzxCyzd/0x0:960x540/fit-in/768x0/image.jpg);
+}
+
+@media only screen and (min-width: 769px) {
+  .recommendation-plugin-tile-4 .recommendation-plugin-thumbnail {
+    /*background-image: url(\${index === 0 ? obj.image_large : obj.image_medium});*/
+    background-image: url(https://images.t-online.de/2023/06/HP4s2AzxCyzd/0x0:960x540/fit-in/330x0/image.jpg);
+  }
+}
+</style>
+<div class="recommendation-plugin-tile recommendation-plugin-tile-4" data-idx="4" data-role="recommendation-plugin-tile">
+  <div class="recommendation-plugin-thumbnail"></div>
+  <div class="recommendation-plugin-overlay">
+    <p class="recommendation-plugin-title">
+    <span class="recommendation-plugin-title-main">Historischer Erfolg gegen illegalen Haifisch-Handel</span>
+    </p>
+  </div>
+</div>
+"
+`;

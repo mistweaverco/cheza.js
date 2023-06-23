@@ -1,0 +1,272 @@
+$recommendation-plugin-highlight-color: #1ffe87 !default;
+$recommendation-plugin-bg-color: #000 !default;
+$recommendation-plugin-tile-border: 2px solid #fff !default;
+$recommendation-plugin-title-bg: linear-gradient(
+  180deg,
+  rgba(0, 0, 0, 0) 0%,
+  rgba(0, 0, 0, 0.8) 100%
+) !default;
+$recommendation-plugin-spacing-large: 16px !default;
+$recommendation-plugin-spacing-small: 12px !default;
+$recommendation-plugin-font-size-small: 12px !default;
+$recommendation-plugin-font-size-smaller: 10px !default;
+$recommendation-plugin-font-size-medium: 14px !default;
+$recommendation-plugin-font-size-large: 16px !default;
+$recommendation-plugin-text-color: #fff !default;
+$recommendation-plugin-button-pause-bg-color: rgba(255, 255, 255, 0.4) !default;
+$recommendation-plugin-button-pause-bg-color-hover: rgba(255, 255, 255, 0.2) !default;
+$recommendation-plugin-tile-overlay-bg: rgba(0, 0, 0, 0.4) !default;
+$recommendation-plugin-controlbar-height-mobile: 55px !default;
+
+.cheza {
+  .recommendation-ui {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: $recommendation-plugin-bg-color;
+    &.hidden {
+      display: none;
+    }
+    .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 200;
+    }
+
+
+    .recommendation-plugin-tile,
+    .recommendation-plugin-tile-replay {
+      display: none;
+      position: relative;
+      float: left;
+      width: 33.33%;
+      height: 33.33%;
+      box-sizing: border-box;
+      cursor: pointer;
+      overflow: hidden;
+
+      &::before {
+        content: "";
+        position: absolute;
+        background-color: $recommendation-plugin-tile-overlay-bg;
+        width: 100%;
+        height: 100%;
+        transition: opacity 0.4s;
+        opacity: 0;
+      }
+    }
+
+    .recommendation-plugin-tile-replay {
+      z-index: 101;
+
+      .recommendation-plugin-overlay {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .recommendation-plugin-tile-single,
+    .recommendation-plugin-tile-0 {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .recommendation-plugin-tile-0,
+    .recommendation-plugin-tile-replay {
+      &::before {
+        opacity: 1;
+      }
+    }
+
+    .recommendation-plugin-tile-1,
+    .recommendation-plugin-tile-2 {
+      border-bottom: $recommendation-plugin-tile-border;
+    }
+
+    .recommendation-plugin-tile-replay,
+    .recommendation-plugin-tile-3 {
+      border-right: $recommendation-plugin-tile-border;
+    }
+
+    .recommendation-plugin-tile-single {
+      border-right: none;
+    }
+
+    .recommendation-plugin-thumbnail {
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50%;
+      background-color: #000;
+    }
+
+    .recommendation-plugin-title-pre {
+      display: block;
+      margin-bottom: 4px;
+      font-weight: normal;
+      font-size: $recommendation-plugin-font-size-medium;
+    }
+
+    .recommendation-plugin-title-main {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .recommendation-plugin-title {
+      margin: 0;
+      padding: 0 $recommendation-plugin-spacing-small;
+      width: 100%;
+      box-sizing: border-box;
+      color: $recommendation-plugin-text-color;
+      font-weight: bold;
+      font-size: $recommendation-plugin-font-size-medium;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .recommendation-plugin-replay-title {
+      margin: 0;
+      padding-top: $recommendation-plugin-spacing-small;
+      text-align: center;
+      font-size: $recommendation-plugin-font-size-smaller;
+      color: $recommendation-plugin-text-color;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .recommendation-plugin-button-pause {
+      position: absolute;
+      top: $recommendation-plugin-spacing-large;
+      right: $recommendation-plugin-spacing-large;
+      background-color: $recommendation-plugin-button-pause-bg-color;
+      color: $recommendation-plugin-text-color;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: $recommendation-plugin-font-size-small;
+      letter-spacing: 2px;
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .recommendation-plugin-revolverplay-icon,
+    .recommendation-plugin-play-icon {
+      display: block;
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      margin-left: -11px;
+      margin-top: -14px;
+    }
+
+    .recommendation-plugin-revolverplay-icon {
+      margin-left: -51px;
+      margin-top: -37px;
+    }
+
+    .recommendation-plugin-replay-icon {
+      display: block;
+    }
+
+    .recommendation-plugin-progress-value {
+      stroke: $recommendation-plugin-highlight-color;
+      stroke-linecap: round;
+      transition: all 1s ease;
+    }
+
+    .recommendation-plugin-ui-small {
+      height: $recommendation-plugin-controlbar-height-mobile;
+      top: inherit;
+      bottom: 0;
+    }
+
+    @media only screen and (min-width: 769px) {
+      .recommendation-plugin-tile {
+        display: block;
+      }
+
+      .recommendation-plugin-title {
+        background: $recommendation-plugin-title-bg;
+        padding-bottom: $recommendation-plugin-spacing-small;
+
+        .recommendation-plugin-tile-0 & {
+          font-size: $recommendation-plugin-font-size-large;
+          padding: $recommendation-plugin-spacing-large;
+
+          .recommendation-plugin-title-main {
+            -webkit-line-clamp: 3;
+          }
+        }
+      }
+
+      .recommendation-plugin-tile-0 {
+        width: 66.66%;
+        height: 66.66%;
+        border-right: $recommendation-plugin-tile-border;
+        border-bottom: $recommendation-plugin-tile-border;
+      }
+
+      .recommendation-plugin-tile-single {
+        width: 100%;
+        height: 100%;
+        border-right: none;
+        border-bottom: none;
+      }
+
+      .recommendation-plugin-tile-replay {
+        display: block;
+        clear: left;
+      }
+
+      .recommendation-plugin-tile-1,
+      .recommendation-plugin-tile-2,
+      .recommendation-plugin-tile-3,
+      .recommendation-plugin-tile-4 {
+        .recommendation-plugin-overlay {
+          transition: all 0.4s;
+          opacity: 0;
+        }
+
+        &:hover {
+          &::before {
+            opacity: 1;
+          }
+
+          .recommendation-plugin-overlay {
+            opacity: 1;
+          }
+        }
+      }
+
+      .recommendation-plugin-revolverplay-icon {
+        top: 50%;
+      }
+
+      .recommendation-plugin-button-pause {
+        transition: all 0.4s;
+
+        &:hover {
+          background-color: $recommendation-plugin-button-pause-bg-color-hover;
+        }
+      }
+    }
+  }
+}

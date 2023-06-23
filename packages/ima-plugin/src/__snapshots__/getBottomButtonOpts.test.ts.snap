@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getBottomButtonOpts should match the snapshot 1`] = `
+[
+  {
+    "ariaLabel": "Play",
+    "name": "play",
+    "on": [
+      {
+        "callback": [Function],
+        "name": "click",
+      },
+    ],
+    "svg": <svg
+      focusable="false"
+      role="presentation"
+    >
+      <use
+        xlink:href="#cheza-play"
+      />
+    </svg>,
+    "title": "Play",
+  },
+  {
+    "ariaLabel": "Pause",
+    "hidden": true,
+    "name": "pause",
+    "on": [
+      {
+        "callback": [Function],
+        "name": "click",
+      },
+    ],
+    "svg": <svg
+      focusable="false"
+      role="presentation"
+    >
+      <use
+        xlink:href="#cheza-pause"
+      />
+    </svg>,
+    "title": "Pause",
+  },
+  {
+    "ariaLabel": "Mute",
+    "name": "volume",
+    "on": [
+      {
+        "callback": [Function],
+        "name": "click",
+      },
+    ],
+    "svg": <svg
+      focusable="false"
+      role="presentation"
+    >
+      <use
+        xlink:href="#cheza-volume"
+      />
+    </svg>,
+    "title": "Mute",
+  },
+  {
+    "ariaLabel": "Unmute",
+    "hidden": true,
+    "name": "muted",
+    "on": [
+      {
+        "callback": [Function],
+        "name": "click",
+      },
+    ],
+    "svg": <svg
+      focusable="false"
+      role="presentation"
+    >
+      <use
+        xlink:href="#cheza-muted"
+      />
+    </svg>,
+    "title": "Unmute",
+  },
+  {
+    "ariaLabel": "Enter Fullscreen",
+    "name": "enter-fullscreen",
+    "on": [
+      {
+        "callback": [Function],
+        "name": "click",
+      },
+    ],
+    "svg": <svg
+      focusable="false"
+      role="presentation"
+    >
+      <use
+        xlink:href="#cheza-enter-fullscreen"
+      />
+    </svg>,
+    "title": "Enter Fullscreen",
+  },
+  {
+    "ariaLabel": "Exit Fullscreen",
+    "hidden": true,
+    "name": "exit-fullscreen",
+    "on": [
+      {
+        "callback": [Function],
+        "name": "click",
+      },
+    ],
+    "svg": <svg
+      focusable="false"
+      role="presentation"
+    >
+      <use
+        xlink:href="#cheza-exit-fullscreen"
+      />
+    </svg>,
+    "title": "Exit Fullscreen",
+  },
+]
+`;

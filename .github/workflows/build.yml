@@ -9,3 +9,9 @@ jobs:
       run: yarn install --immutable
     - name: Build Player
       run: yarn run build:player
+    - name: Build IMA-Plugin
+      run: yarn run build:ima-plugin
+    - name: Build Recommendation-Plugin
+      run: yarn run build:recommendation-plugin
+    - name: Build Default UI
+      run: yarn run build:ui
