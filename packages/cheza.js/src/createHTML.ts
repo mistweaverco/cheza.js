@@ -5,9 +5,9 @@ import { getBottomButtonOpts } from './getBottomButtonOpts'
 import { addVideoElementListeners } from './addVideoElementListeners'
 
 const createRootSVG = (): void => {
-  if (document.getElementById('chezajs-default-ui-icons') === null) {
+  if (document.getElementById('cheza-default-ui-icons') === null) {
     const c = document.createElement('div')
-    c.id = 'chezajs-default-ui-icons'
+    c.id = 'cheza-default-ui-icons'
     c.innerHTML = UIIcons
     document.body.appendChild(c)
   }

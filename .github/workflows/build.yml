@@ -13,5 +13,3 @@ jobs:
       run: yarn run build:ima-plugin
     - name: Build Recommendation-Plugin
       run: yarn run build:recommendation-plugin
-    - name: Build Default UI
-      run: yarn run build:ui

@@ -1,8 +1,8 @@
 import { Cheza } from '@mistweaverco/cheza.js'
+import '@mistweaverco/cheza.js/dist/style.css'
 import { asyncImport } from './asyncImport'
 import { ChezaRecommendationPlugin } from './plugin'
 import type { ChezaRecommendationDataItem } from '../types'
-import '@mistweaverco/cheza.js-default-ui-styles/dist/styles.css'
 
 interface RecommendationData extends ChezaRecommendationDataItem {
   endpoint: string

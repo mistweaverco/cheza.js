@@ -1,6 +1,6 @@
 import { Cheza } from '@mistweaverco/cheza.js'
+import '@mistweaverco/cheza.js/dist/style.css'
 import { ChezaIMAPlugin } from './plugin'
-import '@mistweaverco/cheza.js-default-ui-styles/dist/styles.css'
 
 Cheza.registerPlugin(ChezaIMAPlugin)
 
