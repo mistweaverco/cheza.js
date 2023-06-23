@@ -45,7 +45,7 @@ Cheza is [swahili][cheza-swahili] and means **play**.
   <script src="https://unpkg.com/@mistweaverco/cheza.js/dist/cheza.umd.js"></script>
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/@mistweaverco/cheza.js/dist/style.css" />
   <script>
-    window.Cheza(document.querySelector('video'))
+    window.Cheza.Cheza(document.querySelector('video'))
   </script>
 </body>
 </html>
