@@ -4,7 +4,7 @@ import { ChezaIMAPlugin } from './plugin'
 
 Cheza.registerPlugin(ChezaIMAPlugin)
 
-const video = document.querySelector('video') ?? document.createElement('video')
+const video = document.querySelector('video') as HTMLVideoElement
 const cheza = new Cheza(video)
 
 const pluginOpts: typeof ChezaIMAPlugin.Opts = {
