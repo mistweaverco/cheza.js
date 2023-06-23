@@ -42,10 +42,10 @@ Cheza is [swahili][cheza-swahili] and means **play**.
   >
     <source src="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" />
   </video>
-  <script src="https://unpkg.com/@mistweaverco/cheza.js/dist/cheza.umd.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://unpkg.com/@mistweaverco/cheza.js/dist/style.css" />
+  <script src="https://unpkg.com/@mistweaverco/cheza.js@latest/dist/cheza.umd.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/@mistweaverco/cheza.js@latest/dist/style.css" />
   <script>
-    window.Cheza.Cheza(document.querySelector('video'))
+    new Cheza.Cheza(document.querySelector('video'))
   </script>
 </body>
 </html>

@@ -4,6 +4,7 @@ import { ChezaCanPlayTypes } from './ChezaCanPlayTypes'
 import { canPlayType } from './canPlayType'
 import { createHTML } from './createHTML'
 import { prefillDataStore } from './prefillDataStore'
+import '../styles/style.scss'
 
 const registeredPlugins = new Map()
 
