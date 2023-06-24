@@ -7,7 +7,8 @@ module.exports = {
   testRegex: '.*\\.test\\.ts$',
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   moduleNameMapper: {
-    '^(.+\\.hbs)\\?raw$': '$1'
+    '^(.+\\.hbs)\\?raw$': '$1',
+    '^.+\\.scss$': '@mistweaverco/jest-svg-transformer'
   },
   transform: {
     '^.+\\.svg$': '@mistweaverco/jest-svg-transformer',
