@@ -3,4 +3,4 @@
 > Customizable 📦, extensible ⚡ and small (4kb) HTML5 Videoplayer 📼.
 
 [GitHub](https://github.com/mistweaverco/cheza.js)
-[Getting Started](#simple-htmljs-example)
+[Getting Started](quickstart)

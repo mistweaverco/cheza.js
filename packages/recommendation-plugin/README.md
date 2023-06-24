@@ -69,7 +69,7 @@ import type { ChezaRecommendationDataItem } from '@mistweaverco/cheza.js-recomme
 
 interface RecommendationData extends ChezaRecommendationDataItem {
   endpoint: string
-  playlists: string[]
+  src: string
 }
 
 Cheza.registerPlugin(ChezaRecommendationPlugin)
@@ -91,12 +91,12 @@ cheza.addPlugin(ChezaRecommendationPlugin.Name, {
     console.log('onTileClick', index, tileData)
     video.dataset.recommendationDataUrl = tileData.endpoint
     video.setAttribute('poster', tileData.image_large)
-    setSrcAndPlay(tileData.playlists[0])
+    setSrcAndPlay(tileData.src)
   },
   onCountdownOver: (tileData: RecommendationData) => {
     video.dataset.recommendationDataUrl = tileData.endpoint
     video.setAttribute('poster', tileData.image_large)
-    setSrcAndPlay(tileData.playlists[0])
+    setSrcAndPlay(tileData.src)
   },
   onBeforeReplayClick: () => {
     console.log('onBeforeReplayClick')
