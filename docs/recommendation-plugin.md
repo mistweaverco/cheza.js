@@ -26,6 +26,8 @@ interface ChezaRecommendationDataItem {
 }
 ```
 
+## JSON data
+
 An example response could look like this:
 
 ```json
@@ -72,7 +74,6 @@ An example response could look like this:
   }
 ]
 ```
-
 
 ### Plugin Options
 
