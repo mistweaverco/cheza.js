@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>cheza.js</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Customizable 📦, extensible ⚡ and small **(4kb)** HTML5 Videoplayer 📼.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'cheza.js',
+      repo: 'https://github.com/mistweaverco/cheza.js',
+      coverpage: true
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Prism -->
+  <script>
+  ((function(){
+    const languages = ['bash', 'typescript'];
+    languages.forEach((lang) => {
+      const script = document.createElement('script');
+      script.src = `https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-${lang}.min.js`;
+      document.body.appendChild(script);
+    });
+  })());
+  </script>
+</body>
+</html>
