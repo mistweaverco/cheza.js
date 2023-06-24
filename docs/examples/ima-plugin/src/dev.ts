@@ -1,0 +1,21 @@
+import { Cheza } from '@mistweaverco/cheza.js'
+import '@mistweaverco/cheza.js/dist/style.css'
+import { ChezaIMAPlugin } from '@mistweaverco/cheza.js-ima-plugin'
+import '@mistweaverco/cheza.js-ima-plugin/dist/style.css'
+
+Cheza.registerPlugin(ChezaIMAPlugin)
+
+const video = document.querySelector('video') as HTMLVideoElement
+const cheza = new Cheza(video)
+
+const pluginOpts: typeof ChezaIMAPlugin.Opts = {
+  locale: 'de',
+  maxRedirects: 10,
+  loadVideoTimeout: -1,
+  adLabelTime: 'Werbung endet in {{secondsRemaining}} Sekunden',
+  adLabelNTime: 'Werbung {{adPosition}} von {{totalAds}} endet in {{secondsRemaining}}s'
+}
+
+cheza.addPlugin(ChezaIMAPlugin.Name, pluginOpts)
+
+export { Cheza, ChezaIMAPlugin }

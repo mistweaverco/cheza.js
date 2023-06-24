@@ -1,0 +1,13 @@
+{
+  "name": "@examples/ima-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@mistweaverco/cheza.js": "1.0.2",
+    "@mistweaverco/cheza.js-ima-plugin": "1.0.5"
+  }
+}
