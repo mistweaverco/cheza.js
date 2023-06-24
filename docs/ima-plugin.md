@@ -2,6 +2,20 @@
 
 Wrapper for the Google IMA SDK.
 
+### Required `data-attr`
+
+You need to alter the `video` tag to contain a `data-ima-ad-tag-url`
+which should return a valid VAST XML document.
+
+```html
+<video crossorigin playsinline controls preload="metadata"
+  data-ima-ad-tag-url="https://mwcdn.co/vast-demos/creative-1of3.xml"
+  poster="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-HD.jpg"
+>
+  <source src="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" />
+</video>
+```
+
 ### Plugin Options
 
  - `debug: boolean`: defaults to `false`

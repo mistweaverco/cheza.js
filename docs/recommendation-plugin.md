@@ -3,7 +3,7 @@
 Creates an screen at the end of the video with a grid of suggested video links to watch,
 similar to YouTube.
 
-## Required `data-attr`
+### Required `data-attr`
 
 You need to alter the `video` tag to contain a `data-recommendation-data-url`
 which should return a valid JSON, conforming to `ChezaRecommendationDataItem`.
@@ -26,7 +26,7 @@ interface ChezaRecommendationDataItem {
 }
 ```
 
-## JSON data
+### JSON data
 
 An example response could look like this:
 
