@@ -2,6 +2,8 @@
 
 ### Simple HTML+JS example
 
+[See it in action](examples/quickstart/example.html)
+
 ```html
 <!DOCTYPE html>
 <html>
