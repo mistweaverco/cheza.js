@@ -46,7 +46,7 @@ yarn add -D @mistweaverco/cheza.js @mistweaverco/cheza.js-ima-plugin
 <body>
   <div class="container">
     <h1>cheza.js Videoplayer IMA plugin</h1>
-    <video id="video" controls playsinline preload="metadata"
+    <video id="video" crossorigin controls playsinline preload="metadata"
       data-ima-ad-tag-url="https://mwcdn.co/vast-demos/creative-1of3.xml"
       poster="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-HD.jpg"
     >

@@ -37,7 +37,7 @@ Cheza is [swahili][cheza-swahili] and means **play**.
   </style>
 </head>
 <body>
-  <video id="video" controls playsinline preload="none"
+  <video id="video" crossorigin controls playsinline preload="none"
     poster="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-HD.jpg"
   >
     <source src="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" />
@@ -81,7 +81,7 @@ yarn add -D @mistweaverco/cheza.js @mistweaverco/cheza.js-ima-plugin
   </style>
 </head>
 <body>
-  <video id="video" controls playsinline preload="none"
+  <video id="video" crossorigin controls playsinline preload="none"
     poster="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-HD.jpg"
   >
     <source src="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" />
@@ -119,7 +119,7 @@ void new Cheza(video)
   </style>
 </head>
 <body>
-  <video id="video" controls playsinline preload="none"
+  <video id="video" crossorigin controls playsinline preload="none"
     poster="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-HD.jpg"
     data-hls-url="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer_HLS/video.m3u8"
     data-dash-url="https://mwcdn.co/demo-videos/cmaf/View_From_A_Blue_Moon_Trailer.mpd"
