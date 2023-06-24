@@ -12,7 +12,7 @@ npm i @mistweaverco/cheza.js @mistweaverco/cheza.js-recommendation-plugin
 or `yarn`
 
 ```sh
-yarn add -D @mistweaverco/cheza.js @mistweaverco/cheza.js-recommendation-plugin
+yarn add @mistweaverco/cheza.js @mistweaverco/cheza.js-recommendation-plugin
 ```
 
 `index.html`

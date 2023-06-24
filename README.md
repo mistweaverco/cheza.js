@@ -62,7 +62,7 @@ npm i @mistweaverco/cheza.js @mistweaverco/cheza.js-ima-plugin
 or `yarn`
 
 ```sh
-yarn add -D @mistweaverco/cheza.js @mistweaverco/cheza.js-ima-plugin
+yarn add @mistweaverco/cheza.js @mistweaverco/cheza.js-ima-plugin
 ```
 
 `index.html`
