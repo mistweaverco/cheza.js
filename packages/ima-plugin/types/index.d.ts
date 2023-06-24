@@ -19,6 +19,16 @@ export interface ChezaIMAOpts {
   adLabel?: string
 }
 
+export declare class ChezaIMAPlugin {
+  public static Version: string
+  public static Name: string
+  public static Opts: ChezaIMAOpts
+  public google: typeof google | undefined
+  constructor ()
+  private readonly _dataStore: ChezaIMADataStore
+  private readonly _chezaDataStore: ChezaDataStore | undefined
+}
+
 export interface ChezaIMADataStore {
   defaultUIElement: HTMLDivElement | undefined
   videoElement: HTMLVideoElement | undefined

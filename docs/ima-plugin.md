@@ -2,6 +2,8 @@
 
 Wrapper for the Google IMA SDK.
 
+[See it in action](examples/ima-plugin/example.html)
+
 ### Required `data-attr`
 
 You need to alter the `video` tag to contain a `data-ima-ad-tag-url`

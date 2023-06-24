@@ -3,6 +3,8 @@
 Creates an screen at the end of the video with a grid of suggested video links to watch,
 similar to YouTube.
 
+[See it in action](examples/recommendation-plugin/example.html)
+
 ### Required `data-attr`
 
 You need to alter the `video` tag to contain a `data-recommendation-data-url`

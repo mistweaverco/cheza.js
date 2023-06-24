@@ -1,6 +1,8 @@
 {
   "name": "@mistweaverco/cheza.js-recommendation-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "main": "dist/cheza.js-recommendation-plugin.mjs",
+  "types": "types/index.d.ts",
   "files": [
     "dist",
     "types"

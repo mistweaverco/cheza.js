@@ -10,6 +10,16 @@ export interface ChezaRecommendationOpts {
   onCountdownPaused?: () => void
 }
 
+export declare class ChezaRecommendationPlugin {
+  static Version: string
+  static Name: string
+  static Opts: ChezaRecommendationOpts
+  public google: typeof google | undefined
+  constructor ()
+  private readonly _dataStore: ChezaRecommendationDataStore
+  private readonly _chezaDataStore: ChezaDataStore | undefined
+}
+
 export type Timer = ReturnType<typeof setInterval>
 
 export interface ChezaRecommendationDataItem {
