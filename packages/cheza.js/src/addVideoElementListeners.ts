@@ -7,15 +7,17 @@ const getButtonByName = (name: string, dataStore: ChezaDataStore): HTMLButtonEle
 export const addVideoElementListeners = (dataStore: ChezaDataStore): void => {
   const { videoElement } = dataStore
   const progressBar = dataStore.progress
-
-  document.addEventListener('fullscreenchange', () => {
-    if (document.fullscreenElement === dataStore.rootElement) {
-      getButtonByName('enter-fullscreen', dataStore).classList.add('hidden')
-      getButtonByName('exit-fullscreen', dataStore).classList.remove('hidden')
-    } else {
-      getButtonByName('enter-fullscreen', dataStore).classList.remove('hidden')
-      getButtonByName('exit-fullscreen', dataStore).classList.add('hidden')
-    }
+  const fullscreenChangeEventNames = ['fullscreenchange', 'webkitfullscreenchange', 'mozfullscreenchange', 'MSFullscreenChange']
+  fullscreenChangeEventNames.forEach((fullscreenChangeEventName: string) => {
+    document.addEventListener(fullscreenChangeEventName, () => {
+      if (document.fullscreenElement === dataStore.rootElement) {
+        getButtonByName('enter-fullscreen', dataStore).classList.add('hidden')
+        getButtonByName('exit-fullscreen', dataStore).classList.remove('hidden')
+      } else {
+        getButtonByName('enter-fullscreen', dataStore).classList.remove('hidden')
+        getButtonByName('exit-fullscreen', dataStore).classList.add('hidden')
+      }
+    })
   })
 
   videoElement.addEventListener('click', () => {

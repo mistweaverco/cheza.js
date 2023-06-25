@@ -1,5 +1,6 @@
 import type { ChezaDataStore } from '../types'
 import type { ChezaButtonOpts } from './createButton'
+import { enterFullscreen, exitFullscreen } from './fullscreenUtils'
 import { createSVG } from './createSVG'
 
 export const getBottomButtonOpts = (dataStore: ChezaDataStore): ChezaButtonOpts[] => {
@@ -71,7 +72,7 @@ export const getBottomButtonOpts = (dataStore: ChezaDataStore): ChezaButtonOpts[
         {
           name: 'click',
           callback: () => {
-            void dataStore.rootElement.requestFullscreen()
+            enterFullscreen(dataStore.rootElement, dataStore.videoElement)
           }
         }
       ]
@@ -86,9 +87,7 @@ export const getBottomButtonOpts = (dataStore: ChezaDataStore): ChezaButtonOpts[
         {
           name: 'click',
           callback: () => {
-            if (document.fullscreenElement === dataStore.rootElement) {
-              void document.exitFullscreen()
-            }
+            exitFullscreen(dataStore.videoElement)
           }
         }
       ]

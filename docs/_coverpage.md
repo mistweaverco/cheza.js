@@ -1,4 +1,4 @@
-# cheza.js <small>1.0.1</small>
+# cheza.js <small>1.0.3</small>
 
 > Customizable 📦, extensible ⚡ and small (4kb) HTML5 Videoplayer 📼.
 

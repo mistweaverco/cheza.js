@@ -7,7 +7,7 @@
     "build": "tsc && vite build"
   },
   "dependencies": {
-    "@mistweaverco/cheza.js": "1.0.2",
-    "@mistweaverco/cheza.js-ima-plugin": "1.0.5"
+    "@mistweaverco/cheza.js": "1.0.3",
+    "@mistweaverco/cheza.js-ima-plugin": "1.0.6"
   }
 }

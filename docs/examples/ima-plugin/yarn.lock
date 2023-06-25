@@ -23,8 +23,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@examples/ima-plugin@workspace:."
   dependencies:
-    "@mistweaverco/cheza.js": 1.0.2
-    "@mistweaverco/cheza.js-ima-plugin": 1.0.5
+    "@mistweaverco/cheza.js": 1.0.3
+    "@mistweaverco/cheza.js-ima-plugin": 1.0.6
   languageName: unknown
   linkType: soft
 
@@ -42,21 +42,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mistweaverco/cheza.js-ima-plugin@npm:1.0.5":
-  version: 1.0.5
-  resolution: "@mistweaverco/cheza.js-ima-plugin@npm:1.0.5"
+"@mistweaverco/cheza.js-ima-plugin@npm:1.0.6":
+  version: 1.0.6
+  resolution: "@mistweaverco/cheza.js-ima-plugin@npm:1.0.6"
   dependencies:
     handlebars: 4.7.7
-  checksum: fc4096783e08223a9e8585eda39cac7ab54f6e25631aa999e99ea64b052fe845662743f31a7fc52fda419a387d077ca9c6cb145794b0fe7389e8da6004aa556e
+  checksum: 019f3be5242ca4a25b2a22ae98ddad8a8e9ef1c6b109f9cb2b3cdb7cebb6a3b0c7c7d63bc45a9179d4214a36c6e6fe29e0d8d9bf1e5a16a642d290a2aa21a1c5
   languageName: node
   linkType: hard
 
-"@mistweaverco/cheza.js@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@mistweaverco/cheza.js@npm:1.0.2"
+"@mistweaverco/cheza.js@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@mistweaverco/cheza.js@npm:1.0.3"
   dependencies:
     vite: 3.2.5
-  checksum: 652c217a32bd6707b291cd1b10b8f213d2b3c8d256056ca955abfbc4c07062688384c65e10b01f78305afc87e7f5e487264d479010f51253ea0a60563d35566b
+  checksum: d2454749ce448ea01337adea1cb80be7e65d946dd7ed364c8b22691770785856fa631cbb7fbef02df5f1db4c2416895c22349f9c6805fec5f17bf6ac4a5b4e60
   languageName: node
   linkType: hard
 

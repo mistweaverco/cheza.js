@@ -23,7 +23,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@examples/recommendation-plugin@workspace:."
   dependencies:
-    "@mistweaverco/cheza.js": 1.0.2
+    "@mistweaverco/cheza.js": 1.0.3
     "@mistweaverco/cheza.js-recommendation-plugin": 1.0.1
   languageName: unknown
   linkType: soft
@@ -51,12 +51,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mistweaverco/cheza.js@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@mistweaverco/cheza.js@npm:1.0.2"
+"@mistweaverco/cheza.js@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@mistweaverco/cheza.js@npm:1.0.3"
   dependencies:
     vite: 3.2.5
-  checksum: 652c217a32bd6707b291cd1b10b8f213d2b3c8d256056ca955abfbc4c07062688384c65e10b01f78305afc87e7f5e487264d479010f51253ea0a60563d35566b
+  checksum: d2454749ce448ea01337adea1cb80be7e65d946dd7ed364c8b22691770785856fa631cbb7fbef02df5f1db4c2416895c22349f9c6805fec5f17bf6ac4a5b4e60
   languageName: node
   linkType: hard
 
