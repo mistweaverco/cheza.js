@@ -46,8 +46,8 @@ const getButtonByName = (name: string, dataStore: ChezaIMADataStore): HTMLButton
 export const addAdsManagerEventListeners = (dataStore: ChezaIMADataStore): void => {
   const g = dataStore.google as typeof google
   const am = dataStore.adsManager as google.ima.AdsManager
-  const ev = eventDispatcher(dataStore.videoElement as HTMLVideoElement)
   const contentVideo = dataStore.videoElement as HTMLVideoElement
+  const ev = eventDispatcher(contentVideo)
 
   document.addEventListener('fullscreenchange', () => {
     if (document.fullscreenElement === dataStore.rootElement) {
@@ -132,15 +132,12 @@ export const addAdsManagerEventListeners = (dataStore: ChezaIMADataStore): void 
     getButtonByName('pause', dataStore).classList.remove('hidden')
 
     const contentVideo = dataStore.videoElement as HTMLVideoElement
-    const imaVideo = dataStore.imaVideoElement as HTMLVideoElement
     if (contentVideo.muted) {
-      imaVideo.muted = true
-      // dataStore.adsManager?.setVolume(0)
+      dataStore.adsManager?.setVolume(0)
       getButtonByName('volume', dataStore).classList.add('hidden')
       getButtonByName('muted', dataStore).classList.remove('hidden')
     } else {
-      imaVideo.muted = false
-      // dataStore.adsManager?.setVolume(ve.volume)
+      dataStore.adsManager?.setVolume(1)
       getButtonByName('volume', dataStore).classList.remove('hidden')
       getButtonByName('muted', dataStore).classList.add('hidden')
     }
@@ -179,7 +176,6 @@ export const addAdsManagerEventListeners = (dataStore: ChezaIMADataStore): void 
   })
 
   am.addEventListener(g.ima.AdEvent.Type.CONTENT_RESUME_REQUESTED, () => {
-    const contentVideo = dataStore.videoElement as HTMLVideoElement
-    void contentVideo.play()
+    void dataStore.videoElement?.play()
   })
 }

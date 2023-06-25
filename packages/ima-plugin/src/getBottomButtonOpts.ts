@@ -1,4 +1,4 @@
-import type { ChezaIMADataStore } from '../types'
+import type { ChezaIMADataStore, google } from '../types'
 import type { ChezaButtonOpts } from './createButton'
 import { createSVG } from './createSVG'
 import { enterFullscreen, exitFullscreen } from './fullscreenUtils'
@@ -28,8 +28,8 @@ export const getBottomButtonOpts = (dataStore: ChezaIMADataStore, direction: Get
         {
           name: 'click',
           callback: () => {
-            const imaVideo = dataStore.imaVideoElement as HTMLVideoElement
-            void imaVideo.play()
+            const am = dataStore.adsManager as google.ima.AdsManager
+            am.resume()
           }
         }
       ]
@@ -44,8 +44,8 @@ export const getBottomButtonOpts = (dataStore: ChezaIMADataStore, direction: Get
         {
           name: 'click',
           callback: () => {
-            const imaVideo = dataStore.imaVideoElement as HTMLVideoElement
-            imaVideo.pause()
+            const am = dataStore.adsManager as google.ima.AdsManager
+            am.pause()
           }
         }
       ]
@@ -59,8 +59,8 @@ export const getBottomButtonOpts = (dataStore: ChezaIMADataStore, direction: Get
         {
           name: 'click',
           callback: () => {
-            const imaVideo = dataStore.imaVideoElement as HTMLVideoElement
-            imaVideo.muted = true
+            const am = dataStore.adsManager as google.ima.AdsManager
+            am.setVolume(0)
           }
         }
       ]
@@ -75,8 +75,8 @@ export const getBottomButtonOpts = (dataStore: ChezaIMADataStore, direction: Get
         {
           name: 'click',
           callback: () => {
-            const imaVideo = dataStore.imaVideoElement as HTMLVideoElement
-            imaVideo.muted = false
+            const am = dataStore.adsManager as google.ima.AdsManager
+            am.setVolume(1)
           }
         }
       ]

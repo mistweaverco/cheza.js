@@ -71,7 +71,6 @@ class ChezaIMAPlugin {
     this._dataStore.adsLoaded = true
     // 📌 This works wonders and prevents the nasty play was interrupted
     // error message from appearing ..
-    // TODO: Check if it works on most mobile devices
     event.preventDefault()
     // 📌 Check if we need to load the video videoElement
     // in some circumstances via videoElement.load()
@@ -143,7 +142,8 @@ class ChezaIMAPlugin {
     const videoElement = dataStore.videoElement
     const playButton = dataStore.controlsBottom.querySelector('.button-play') as HTMLButtonElement
     const progressContainer = dataStore.progressContainer
-
+    // 📌 This is a hack to prevent IMA from replacing the videoElement on iOS
+    g.ima.settings.setDisableCustomPlaybackForIOS10Plus(true)
     g.ima.settings.setNumRedirects(this._dataStore.opts?.maxRedirects ?? 5)
     if (this._dataStore.opts?.locale !== undefined) {
       g.ima.settings.setLocale(this._dataStore.opts.locale)

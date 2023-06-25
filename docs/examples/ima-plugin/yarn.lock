@@ -24,7 +24,7 @@ __metadata:
   resolution: "@examples/ima-plugin@workspace:."
   dependencies:
     "@mistweaverco/cheza.js": 1.0.3
-    "@mistweaverco/cheza.js-ima-plugin": 1.0.7
+    "@mistweaverco/cheza.js-ima-plugin": 1.0.8
   languageName: unknown
   linkType: soft
 
@@ -42,12 +42,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mistweaverco/cheza.js-ima-plugin@npm:1.0.7":
-  version: 1.0.7
-  resolution: "@mistweaverco/cheza.js-ima-plugin@npm:1.0.7"
+"@mistweaverco/cheza.js-ima-plugin@npm:1.0.8":
+  version: 1.0.8
+  resolution: "@mistweaverco/cheza.js-ima-plugin@npm:1.0.8"
   dependencies:
     handlebars: 4.7.7
-  checksum: 78e4ded65859235ba308eb6484f1ea5b09e61cddacec1d88ac5d28ee0ece5145dfa810ac21aa824833fecbb9afd8de054d783481f9c79bfd13b5f0af1d23d80a
+  checksum: b2bdacdea79880c57517031bb2854fa516285195103304d25242b536e03e74e243892753a35b252e7c12568497d3989c8c09543366eeb202035c05e441921308
   languageName: node
   linkType: hard
 
