@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "@mistweaverco/cheza.js": "1.0.3",
-    "@mistweaverco/cheza.js-ima-plugin": "1.0.6"
+    "@mistweaverco/cheza.js-ima-plugin": "1.0.7"
   }
 }

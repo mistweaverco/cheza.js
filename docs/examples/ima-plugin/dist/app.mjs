@@ -223,7 +223,7 @@ const tr = async (e) => {
       this.remove(), l(new Error(`${t} could not be loaded`));
     }), h.src = t, document.head.appendChild(h);
   });
-}, rr = "@mistweaverco/cheza.js-ima-plugin", nr = "1.0.6", ir = "types/index.d.ts", or = [
+}, rr = "@mistweaverco/cheza.js-ima-plugin", nr = "1.0.7", ir = "types/index.d.ts", or = [
   "dist",
   "types"
 ], sr = "dist/cheza.js-ima-plugin.mjs", ar = {
@@ -248,7 +248,7 @@ const tr = async (e) => {
     e.dispatchEvent(h);
   }
 });
-var A = /* @__PURE__ */ ((e) => (e.AD_ERROR = "adError", e.AD_CAN_PLAY = "adCanPlay", e.AD_BUFFERING = "adBuffering", e.AD_METADATA = "adMetadata", e.AD_PROGRESS = "adProgress", e.AD_CLICK = "adClick", e.AD_COMPLETE = "adComplete", e.AD_SKIPPED = "adSkipped", e.AD_FIRST_QUARTILE = "adFirstQuartile", e.AD_MIDPOINT = "adMidpoint", e.AD_THIRD_QUARTILE = "adThirdQuartile", e.AD_LOADED = "adLoaded", e.AD_STARTED = "adStarted", e.AD_PAUSED = "adPaused", e.AD_RESUMED = "adResumed", e.AD_VOLUME_CHANGED = "adVolumeChanged", e.AD_VOLUME_MUTED = "adVolumeMuted", e))(A || {}), Q = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : typeof global < "u" ? global : typeof self < "u" ? self : {};
+var P = /* @__PURE__ */ ((e) => (e.AD_ERROR = "adError", e.AD_CAN_PLAY = "adCanPlay", e.AD_BUFFERING = "adBuffering", e.AD_METADATA = "adMetadata", e.AD_PROGRESS = "adProgress", e.AD_CLICK = "adClick", e.AD_COMPLETE = "adComplete", e.AD_SKIPPED = "adSkipped", e.AD_FIRST_QUARTILE = "adFirstQuartile", e.AD_MIDPOINT = "adMidpoint", e.AD_THIRD_QUARTILE = "adThirdQuartile", e.AD_LOADED = "adLoaded", e.AD_STARTED = "adStarted", e.AD_PAUSED = "adPaused", e.AD_RESUMED = "adResumed", e.AD_VOLUME_CHANGED = "adVolumeChanged", e.AD_VOLUME_MUTED = "adVolumeMuted", e))(P || {}), Q = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : typeof global < "u" ? global : typeof self < "u" ? self : {};
 function pr(e) {
   return e && e.__esModule && Object.prototype.hasOwnProperty.call(e, "default") ? e.default : e;
 }
@@ -346,7 +346,7 @@ var R = { exports: {} };
   }
   l.prototype = new Error(), t.default = l, e.exports = t.default;
 })(R, R.exports);
-var te = {}, Pe = { exports: {} };
+var te = {}, Ae = { exports: {} };
 (function(e, t) {
   t.__esModule = !0;
   var r = x;
@@ -366,8 +366,8 @@ var te = {}, Pe = { exports: {} };
       return i(h, p);
     });
   }, e.exports = t.default;
-})(Pe, Pe.exports);
-var Ae = { exports: {} };
+})(Ae, Ae.exports);
+var Pe = { exports: {} };
 (function(e, t) {
   t.__esModule = !0;
   function r(s) {
@@ -406,7 +406,7 @@ var Ae = { exports: {} };
       return o === 0 && (u = d(this)), u;
     });
   }, e.exports = t.default;
-})(Ae, Ae.exports);
+})(Pe, Pe.exports);
 var Me = { exports: {} };
 (function(e, t) {
   t.__esModule = !0;
@@ -492,9 +492,9 @@ te.moveHelperToHooks = Br;
 function z(e) {
   return e && e.__esModule ? e : { default: e };
 }
-var Er = Pe.exports, kr = z(Er), wr = Ae.exports, Lr = z(wr), xr = Me.exports, Cr = z(xr), Pr = Oe.exports, Ar = z(Pr), Mr = Re.exports, Or = z(Mr), Rr = Ie.exports, Ir = z(Rr), Dr = De.exports, Nr = z(Dr);
+var Er = Ae.exports, kr = z(Er), wr = Pe.exports, Lr = z(wr), xr = Me.exports, Cr = z(xr), Ar = Oe.exports, Pr = z(Ar), Mr = Re.exports, Or = z(Mr), Rr = Ie.exports, Ir = z(Rr), Dr = De.exports, Nr = z(Dr);
 function Tr(e) {
-  kr.default(e), Lr.default(e), Cr.default(e), Ar.default(e), Or.default(e), Ir.default(e), Nr.default(e);
+  kr.default(e), Lr.default(e), Cr.default(e), Pr.default(e), Or.default(e), Ir.default(e), Nr.default(e);
 }
 function Br(e, t, r) {
   e.helpers[t] && (e.hooks[t] = e.helpers[t], r || delete e.helpers[t]);
@@ -1196,16 +1196,16 @@ var re = {}, $e = { exports: {} };
           var G;
           return G = i.lexer.lex() || 1, typeof G != "number" && (G = i.symbols_[G] || G), G;
         }
-        for (var _, b, g, S, E = {}, k, w, L, P; ; ) {
+        for (var _, b, g, S, E = {}, k, w, L, A; ; ) {
           if (b = c[c.length - 1], this.defaultActions[b] ? g = this.defaultActions[b] : ((_ === null || typeof _ > "u") && (_ = v()), g = o[b] && o[b][_]), typeof g > "u" || !g.length || !g[0]) {
             var O = "";
             {
-              P = [];
+              A = [];
               for (k in o[b])
-                this.terminals_[k] && k > 2 && P.push("'" + this.terminals_[k] + "'");
+                this.terminals_[k] && k > 2 && A.push("'" + this.terminals_[k] + "'");
               this.lexer.showPosition ? O = "Parse error on line " + (n + 1) + `:
 ` + this.lexer.showPosition() + `
-Expecting ` + P.join(", ") + ", got '" + (this.terminals_[_] || _) + "'" : O = "Parse error on line " + (n + 1) + ": Unexpected " + (_ == 1 ? "end of input" : "'" + (this.terminals_[_] || _) + "'"), this.parseError(O, { text: this.lexer.match, token: this.terminals_[_] || _, line: this.lexer.yylineno, loc: f, expected: P });
+Expecting ` + A.join(", ") + ", got '" + (this.terminals_[_] || _) + "'" : O = "Parse error on line " + (n + 1) + ": Unexpected " + (_ == 1 ? "end of input" : "'" + (this.terminals_[_] || _) + "'"), this.parseError(O, { text: this.lexer.match, token: this.terminals_[_] || _, line: this.lexer.yylineno, loc: f, expected: A });
             }
           }
           if (g[0] instanceof Array && g.length > 1)
@@ -1594,8 +1594,8 @@ N.SourceLocation = wn;
 N.id = Ln;
 N.stripFlags = xn;
 N.stripComment = Cn;
-N.preparePath = Pn;
-N.prepareMustache = An;
+N.preparePath = An;
+N.prepareMustache = Pn;
 N.prepareRawBlock = Mn;
 N.prepareBlock = On;
 N.prepareProgram = Rn;
@@ -1631,7 +1631,7 @@ function xn(e, t) {
 function Cn(e) {
   return e.replace(/^\{\{~?!-?-?/, "").replace(/-?-?~?\}\}$/, "");
 }
-function Pn(e, t, r) {
+function An(e, t, r) {
   r = this.locInfo(r);
   for (var l = e ? "@" : "", h = [], p = 0, s = 0, i = t.length; s < i; s++) {
     var c = t[s].part, a = t[s].original !== c;
@@ -1651,7 +1651,7 @@ function Pn(e, t, r) {
     loc: r
   };
 }
-function An(e, t, r, l, h, p) {
+function Pn(e, t, r, l, h, p) {
   var s = l.charAt(3) || l.charAt(2), i = s !== "{" && s !== "&", c = /\*/.test(l);
   return {
     type: c ? "Decorator" : "MustacheStatement",
@@ -2098,8 +2098,8 @@ function ie() {
           return g;
         S = E.path;
       }
-      for (var k = e.isAbsolute(S), w = S.split(/\/+/), L, P = 0, O = w.length - 1; O >= 0; O--)
-        L = w[O], L === "." ? w.splice(O, 1) : L === ".." ? P++ : P > 0 && (L === "" ? (w.splice(O + 1, P), P = 0) : (w.splice(O, 2), P--));
+      for (var k = e.isAbsolute(S), w = S.split(/\/+/), L, A = 0, O = w.length - 1; O >= 0; O--)
+        L = w[O], L === "." ? w.splice(O, 1) : L === ".." ? A++ : A > 0 && (L === "" ? (w.splice(O + 1, A), A = 0) : (w.splice(O, 2), A--));
       return S = w.join("/"), S === "" && (S = k ? "/" : "."), E ? (E.path = S, p(E)) : S;
     }
     e.normalize = s;
@@ -2194,7 +2194,7 @@ function ie() {
   }(nt)), nt;
 }
 var _e = {}, ot;
-function Pt() {
+function At() {
   if (ot)
     return _e;
   ot = 1;
@@ -2257,11 +2257,11 @@ function Wn() {
   }, Se.MappingList = r, Se;
 }
 var at;
-function At() {
+function Pt() {
   if (at)
     return ye;
   at = 1;
-  var e = Ct(), t = ie(), r = Pt().ArraySet, l = Wn().MappingList;
+  var e = Ct(), t = ie(), r = At().ArraySet, l = Wn().MappingList;
   function h(p) {
     p || (p = {}), this._file = t.getArg(p, "file", null), this._sourceRoot = t.getArg(p, "sourceRoot", null), this._skipValidation = t.getArg(p, "skipValidation", !1), this._sources = new r(), this._names = new r(), this._mappings = new l(), this._sourcesContents = null;
   }
@@ -2435,7 +2435,7 @@ function Qn() {
   if (pt)
     return J;
   pt = 1;
-  var e = ie(), t = Zn(), r = Pt().ArraySet, l = Ct(), h = Jn().quickSort;
+  var e = ie(), t = Zn(), r = At().ArraySet, l = Ct(), h = Jn().quickSort;
   function p(a, d) {
     var o = a;
     return typeof a == "string" && (o = e.parseSourceMapInput(a)), o.sections != null ? new c(o, d) : new s(o, d);
@@ -2561,18 +2561,18 @@ function Qn() {
     this.generatedLine = 0, this.generatedColumn = 0, this.source = null, this.originalLine = null, this.originalColumn = null, this.name = null;
   }
   s.prototype._parseMappings = function(a, d) {
-    for (var o = 1, u = 0, n = 0, m = 0, f = 0, y = 0, v = a.length, _ = 0, b = {}, g = {}, S = [], E = [], k, w, L, P, O; _ < v; )
+    for (var o = 1, u = 0, n = 0, m = 0, f = 0, y = 0, v = a.length, _ = 0, b = {}, g = {}, S = [], E = [], k, w, L, A, O; _ < v; )
       if (a.charAt(_) === ";")
         o++, _++, u = 0;
       else if (a.charAt(_) === ",")
         _++;
       else {
-        for (k = new i(), k.generatedLine = o, P = _; P < v && !this._charIsMappingSeparator(a, P); P++)
+        for (k = new i(), k.generatedLine = o, A = _; A < v && !this._charIsMappingSeparator(a, A); A++)
           ;
-        if (w = a.slice(_, P), L = b[w], L)
+        if (w = a.slice(_, A), L = b[w], L)
           _ += w.length;
         else {
-          for (L = []; _ < P; )
+          for (L = []; _ < A; )
             l.decode(a, _, g), O = g.value, _ = g.rest, L.push(O);
           if (L.length === 2)
             throw new Error("Found a source, but no line and column");
@@ -2803,7 +2803,7 @@ function Yn() {
   if (ht)
     return Ee;
   ht = 1;
-  var e = At().SourceMapGenerator, t = ie(), r = /(\r?\n)/, l = 10, h = "$$$isSourceNode$$$";
+  var e = Pt().SourceMapGenerator, t = ie(), r = /(\r?\n)/, l = 10, h = "$$$isSourceNode$$$";
   function p(s, i, c, a, d) {
     this.children = [], this.sourceContents = {}, this.line = s == null ? null : s, this.column = i == null ? null : i, this.source = c == null ? null : c, this.name = d == null ? null : d, this[h] = !0, a != null && this.add(a);
   }
@@ -2947,7 +2947,7 @@ function Yn() {
 }
 var dt;
 function Xn() {
-  return dt || (dt = 1, oe.SourceMapGenerator = At().SourceMapGenerator, oe.SourceMapConsumer = Qn().SourceMapConsumer, oe.SourceNode = Yn().SourceNode), oe;
+  return dt || (dt = 1, oe.SourceMapGenerator = Pt().SourceMapGenerator, oe.SourceMapConsumer = Qn().SourceMapConsumer, oe.SourceNode = Yn().SourceNode), oe;
 }
 (function(e, t) {
   t.__esModule = !0;
@@ -3434,48 +3434,50 @@ const ei = (e) => {
   const t = e.google, r = e.adsManager, l = cr(e.videoElement), h = e.videoElement;
   document.addEventListener("fullscreenchange", () => {
     document.fullscreenElement === e.rootElement ? (C("enter-fullscreen", e).classList.add("hidden"), C("exit-fullscreen", e).classList.remove("hidden"), r.resize(h.clientWidth, h.clientHeight, t.ima.ViewMode.FULLSCREEN)) : (C("enter-fullscreen", e).classList.remove("hidden"), C("exit-fullscreen", e).classList.add("hidden"), r.resize(h.clientWidth, h.clientHeight, t.ima.ViewMode.NORMAL));
+  }), r.addEventListener(t.ima.AdErrorEvent.Type.AD_ERROR, (p) => {
+    const s = p.getError();
+    console.error("Ad error: ", s.getMessage()), l.dispatch(P.AD_ERROR, s.getMessage());
   }), r.addEventListener(t.ima.AdEvent.Type.AD_CAN_PLAY, () => {
     e.ui.loadingSpinner.classList.add("hidden");
   }), r.addEventListener(t.ima.AdEvent.Type.AD_BUFFERING, () => {
     e.ui.loadingSpinner.classList.remove("hidden");
   }), r.addEventListener(t.ima.AdEvent.Type.AD_METADATA, () => {
-    l.dispatch(A.AD_METADATA);
+    l.dispatch(P.AD_METADATA);
   }), r.addEventListener(t.ima.AdEvent.Type.AD_PROGRESS, () => {
     const p = e.ui.controlsBottom.querySelector(".time-label");
     let s = "";
-    e.totalAds > 1 ? s = ei(e) : s = ti(e), p.innerHTML = s, l.dispatch(A.AD_PROGRESS);
+    e.totalAds > 1 ? s = ei(e) : s = ti(e), p.innerHTML = s, l.dispatch(P.AD_PROGRESS);
   }), r.addEventListener(t.ima.AdEvent.Type.CLICK, () => {
-    l.dispatch(A.AD_CLICK);
+    l.dispatch(P.AD_CLICK);
   }), r.addEventListener(t.ima.AdEvent.Type.COMPLETE, () => {
-    e.ui.root.classList.add("hidden"), l.dispatch(A.AD_COMPLETE);
+    e.ui.root.classList.add("hidden"), l.dispatch(P.AD_COMPLETE);
   }), r.addEventListener(t.ima.AdEvent.Type.SKIPPED, () => {
-    e.ui.root.classList.add("hidden"), l.dispatch(A.AD_SKIPPED);
+    e.ui.root.classList.add("hidden"), l.dispatch(P.AD_SKIPPED);
   }), r.addEventListener(t.ima.AdEvent.Type.FIRST_QUARTILE, () => {
-    l.dispatch(A.AD_FIRST_QUARTILE);
+    l.dispatch(P.AD_FIRST_QUARTILE);
   }), r.addEventListener(t.ima.AdEvent.Type.MIDPOINT, () => {
-    l.dispatch(A.AD_MIDPOINT);
+    l.dispatch(P.AD_MIDPOINT);
   }), r.addEventListener(t.ima.AdEvent.Type.PAUSED, () => {
-    C("play", e).classList.remove("hidden"), C("pause", e).classList.add("hidden"), l.dispatch(A.AD_PAUSED, r.getRemainingTime());
+    C("play", e).classList.remove("hidden"), C("pause", e).classList.add("hidden"), l.dispatch(P.AD_PAUSED, r.getRemainingTime());
   }), r.addEventListener(t.ima.AdEvent.Type.RESUMED, () => {
-    C("play", e).classList.add("hidden"), C("pause", e).classList.remove("hidden"), l.dispatch(A.AD_RESUMED, r.getRemainingTime());
+    C("play", e).classList.add("hidden"), C("pause", e).classList.remove("hidden"), l.dispatch(P.AD_RESUMED, r.getRemainingTime());
   }), r.addEventListener(t.ima.AdEvent.Type.STARTED, (p) => {
     e.ui.root.classList.remove("hidden"), C("play", e).classList.add("hidden"), C("pause", e).classList.remove("hidden");
     const s = e.videoElement, i = e.imaVideoElement;
     s.muted ? (i.muted = !0, C("volume", e).classList.add("hidden"), C("muted", e).classList.remove("hidden")) : (i.muted = !1, C("volume", e).classList.remove("hidden"), C("muted", e).classList.add("hidden"));
     const c = p.getAd().getAdPodInfo();
-    e.adPosition = c.getAdPosition(), e.totalAds = c.getTotalAds(), l.dispatch(A.AD_STARTED, r.getRemainingTime());
+    e.adPosition = c.getAdPosition(), e.totalAds = c.getTotalAds(), l.dispatch(P.AD_STARTED, r.getRemainingTime());
   }), r.addEventListener(t.ima.AdEvent.Type.THIRD_QUARTILE, () => {
-    l.dispatch(A.AD_THIRD_QUARTILE);
+    l.dispatch(P.AD_THIRD_QUARTILE);
   }), r.addEventListener(t.ima.AdEvent.Type.VOLUME_CHANGED, () => {
-    e.imaVideoElement.muted ? (C("volume", e).classList.add("hidden"), C("muted", e).classList.remove("hidden")) : (C("volume", e).classList.remove("hidden"), C("muted", e).classList.add("hidden")), l.dispatch(A.AD_VOLUME_CHANGED, r.getVolume());
+    e.imaVideoElement.muted ? (C("volume", e).classList.add("hidden"), C("muted", e).classList.remove("hidden")) : (C("volume", e).classList.remove("hidden"), C("muted", e).classList.add("hidden")), l.dispatch(P.AD_VOLUME_CHANGED, r.getVolume());
   }), r.addEventListener(t.ima.AdEvent.Type.VOLUME_MUTED, () => {
-    C("volume", e).classList.add("hidden"), C("muted", e).classList.remove("hidden"), l.dispatch(A.AD_VOLUME_MUTED);
+    C("volume", e).classList.add("hidden"), C("muted", e).classList.remove("hidden"), l.dispatch(P.AD_VOLUME_MUTED);
   }), r.addEventListener(t.ima.AdEvent.Type.CONTENT_PAUSE_REQUESTED, () => {
     var p;
     (p = e.videoElement) == null || p.pause();
   }), r.addEventListener(t.ima.AdEvent.Type.CONTENT_RESUME_REQUESTED, () => {
-    const p = e.videoElement;
-    p.currentTime !== p.duration && p.play();
+    e.videoElement.play();
   });
 }, ni = () => {
   const e = document.createElement("div"), t = document.createElement("div"), r = document.createElement("div"), l = document.createElement("div"), h = document.createElement("div");

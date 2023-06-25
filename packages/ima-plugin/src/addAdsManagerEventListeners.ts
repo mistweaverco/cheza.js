@@ -61,11 +61,12 @@ export const addAdsManagerEventListeners = (dataStore: ChezaIMADataStore): void 
     }
   })
 
-  // am.addEventListener(g.ima.AdErrorEvent.Type.AD_ERROR, (adErrorEvent: any) => {
-  //   const error = adErrorEvent.getError()
-  //   console.error('Ad error: ', error.getMessage())
-  //   // this.dispatchAndLogError(error.getVastErrorCode(), error.getMessage())
-  // })
+  // @ts-expect-error - IMA SDK types are incomplete
+  am.addEventListener(g.ima.AdErrorEvent.Type.AD_ERROR, (adErrorEvent: any) => {
+    const error = adErrorEvent.getError()
+    console.error('Ad error: ', error.getMessage())
+    ev.dispatch(ChezaIMAEvent.AD_ERROR, error.getMessage())
+  })
 
   am.addEventListener(g.ima.AdEvent.Type.AD_CAN_PLAY, () => {
     dataStore.ui.loadingSpinner.classList.add('hidden')
@@ -179,10 +180,6 @@ export const addAdsManagerEventListeners = (dataStore: ChezaIMADataStore): void 
 
   am.addEventListener(g.ima.AdEvent.Type.CONTENT_RESUME_REQUESTED, () => {
     const contentVideo = dataStore.videoElement as HTMLVideoElement
-    // 📌 Safe-guard for post-rolls.
-    // Prevent the content video from playing again when the ad is complete
-    if (contentVideo.currentTime !== contentVideo.duration) {
-      void contentVideo.play()
-    }
+    void contentVideo.play()
   })
 }
