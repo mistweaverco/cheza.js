@@ -5,19 +5,35 @@
   <title>cheza.js</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    body {
-      background-color: #1ffe87;
-    }
+      body {
+        background-color: #1ffe87;
+      }
+      .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 640px;
+        height: 100%;
+      }
+      h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 2em;
+        padding: 1em;
+        text-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
   </style>
 </head>
 <body>
-  <video id="video" crossorigin controls playsinline preload="none"
-    poster="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-HD.jpg"
-  >
-    <source src="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" />
-  </video>
-  <script src="https://unpkg.com/@mistweaverco/cheza.js@latest/dist/cheza.umd.js"></script>
+  <div class="container">
+    <h1>cheza.js Videoplayer IMA plugin</h1>
+    <video id="video" crossorigin controls playsinline preload="none"
+      poster="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-HD.jpg"
+    >
+      <source src="https://mwcdn.co/demo-videos/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" />
+    </video>
+  </div>
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/@mistweaverco/cheza.js@latest/dist/style.css" />
+  <script src="https://unpkg.com/@mistweaverco/cheza.js@latest/dist/cheza.umd.js"></script>
   <script>
     new Cheza.Cheza(document.querySelector('video'))
   </script>
